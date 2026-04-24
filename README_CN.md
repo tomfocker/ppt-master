@@ -2,7 +2,7 @@
 
 本仓库是 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 的 fork，保留原版“把 PDF / DOCX / URL / Markdown 生成原生可编辑 PPTX”的完整工作流，并在此基础上补充更适合复用的模板资产。
 
-> 原版项目由 Hugo He 创建并维护，采用 MIT License。本 fork 主要用于模板扩展、二次实践和本地工作流增强。
+> 原版项目由 Hugo He 创建并维护，采用 MIT License。本 fork 主要用于模板扩展和二次实践。
 
 [English](./README.md) | 中文
 
@@ -49,19 +49,6 @@ skills/ppt-master/templates/layouts/
 - [模板说明](./skills/ppt-master/templates/layouts/README.md)
 - [机器可读索引](./skills/ppt-master/templates/layouts/layouts_index.json)
 
-### 3. 加强通用 Agent 入口
-
-本 fork 补充了 [AGENTS.md](./AGENTS.md)，让 Claude Code、OpenAI Codex、Cursor、VS Code + Copilot 等通用 AI 编程 Agent 更容易进入正确流程。
-
-在执行 PPT 生成任务前，Agent 应先读取：
-
-```text
-AGENTS.md
-skills/ppt-master/SKILL.md
-```
-
----
-
 ## 使用方式
 
 ### 1. 安装依赖
@@ -85,6 +72,8 @@ projects/my-report/sources/report.pdf
 ```
 
 ### 3. 在 AI Agent 里发起任务
+
+原版已经提供 [AGENTS.md](./AGENTS.md) 作为通用 AI Agent 入口。使用本 fork 时，仍建议让 Agent 先读取 `AGENTS.md` 和 `skills/ppt-master/SKILL.md`，再开始生成。
 
 普通自由设计：
 

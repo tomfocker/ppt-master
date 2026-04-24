@@ -2,7 +2,7 @@
 
 This repository is a fork of [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master). It keeps the original workflow for generating natively editable PPTX files from PDF, DOCX, URL, and Markdown sources, and adds reusable template assets on top.
 
-> The original project is created and maintained by Hugo He under the MIT License. This fork focuses on template expansion and local workflow improvements.
+> The original project is created and maintained by Hugo He under the MIT License. This fork focuses on reusable template expansion.
 
 English | [中文](./README_CN.md)
 
@@ -49,19 +49,6 @@ See:
 - [Template README](./skills/ppt-master/templates/layouts/README.md)
 - [Machine-readable index](./skills/ppt-master/templates/layouts/layouts_index.json)
 
-### 3. General Agent Entry Point
-
-This fork adds [AGENTS.md](./AGENTS.md) so general AI coding agents such as Claude Code, OpenAI Codex, Cursor, and VS Code + Copilot can enter the correct workflow more reliably.
-
-For PPT generation tasks, ask the agent to read:
-
-```text
-AGENTS.md
-skills/ppt-master/SKILL.md
-```
-
----
-
 ## Usage
 
 ### 1. Install
@@ -85,6 +72,8 @@ projects/my-report/sources/report.pdf
 ```
 
 ### 3. Ask an AI Agent
+
+The upstream project already provides [AGENTS.md](./AGENTS.md) as the entry point for general AI agents. When using this fork, still ask the agent to read `AGENTS.md` and `skills/ppt-master/SKILL.md` before generation.
 
 Free design:
 

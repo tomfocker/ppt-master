@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <circle cx="930" cy="124" r="18" fill="#4285F4"/>
+  <circle cx="992" cy="124" r="18" fill="#EA4335"/>
+  <circle cx="1054" cy="124" r="18" fill="#FBBC04"/>
+  <circle cx="1116" cy="124" r="18" fill="#34A853"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#4285F4"/><rect x="320" y="0" width="320" height="8" fill="#EA4335"/><rect x="640" y="0" width="320" height="8" fill="#FBBC04"/><rect x="960" y="0" width="320" height="8" fill="#34A853"/>
+  
+  <rect x="100" y="126" width="1080" height="420" fill="#F8Fafd" fill-opacity="0.9" rx="8"/>
+  <text x="640" y="292" text-anchor="middle" fill="#202124" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="60" font-weight="700">{{THANK_YOU}}</text>
+  <line x1="470" y1="340" x2="810" y2="340" stroke="#4285F4" stroke-width="4"/>
+  <text x="640" y="402" text-anchor="middle" fill="#475569" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22">{{CONTACT_INFO}}</text>
+  <text x="640" y="628" text-anchor="middle" fill="#475569" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13">{{COPYRIGHT}}</text>
+</svg>

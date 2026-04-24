@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#2563EB"/>
+  <circle cx="1110" cy="150" r="110" fill="#2563EB" fill-opacity="0.10"/>
+  <rect x="992" y="500" width="220" height="92" fill="#22C55E" fill-opacity="0.12" rx="8"/>
+  
+  <rect x="0" y="0" width="1280" height="70" fill="#FFFFFF" fill-opacity="0.95"/>
+  <rect x="0" y="68" width="1280" height="3" fill="#2563EB"/>
+  <text x="72" y="45" fill="#0F172A" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="30" font-weight="700">{{PAGE_TITLE}}</text>
+  <text x="1170" y="45" text-anchor="end" fill="#64748B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14">{{PAGE_NUM}}</text>
+  <rect x="80" y="126" width="1120" height="468" fill="#FFFFFF" fill-opacity="0.92" stroke="#2563EB" stroke-width="1" stroke-opacity="0.22" rx="8"/>
+  <rect x="110" y="156" width="1060" height="408" fill="none" stroke="#64748B" stroke-width="2" stroke-dasharray="12 12" stroke-opacity="0.38" rx="6"/>
+  <text x="640" y="350" text-anchor="middle" fill="#64748B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700">{{CONTENT_AREA}}</text>
+  <text x="80" y="654" fill="#64748B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13">{{SOURCE}}</text>
+  <rect x="1084" y="630" width="92" height="22" fill="#22C55E" fill-opacity="0.18" rx="4"/>
+</svg>

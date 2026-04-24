@@ -1,4 +1,4 @@
-# Page Layout Template Library (21 Templates)
+# Page Layout Template Library (36 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -34,6 +34,21 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `科技蓝商务` | General | Corporate reports, product launches, proposals | Tech Blue `#0078D7` | Tech, business, professional, clean |
 | `smart_red` | General | Tech company profiles, education solutions | Smart Red-Orange `#DE3545` | Modern, vibrant, geometric |
 | `重庆大学` | Scenario | Academic defense, research presentations | CQU Blue `#006BB7` | Academic solidity, mountain-city character |
+| `示例_项目介绍` | Example-derived | 产品介绍、项目路演、工具说明、内部宣讲 | #2563EB | 清晰、现代、结构化，强调功能模块与价值递进 |
+| `示例_暗色科技自动模式` | Example-derived | AI 安全、工程架构、技术复盘、研发分享 | #60A5FA | 深色、克制、工程化，带有安全评审和系统架构气质 |
+| `示例_像素风Git入门` | Example-derived | 技术培训、开发者入门课、游戏化知识分享 | #00FF41 | 像素复古、轻松、鲜明，适合降低技术主题的距离感 |
+| `示例_易理风谦卦` | Example-derived | 传统文化研究、国学课程、哲学主题汇报、文化讲座 | #8B5A2B | 古朴、沉静、象数结构感，强调层层递进的学术叙述 |
+| `示例_禅意风金刚经` | Example-derived | 佛学讲座、经典研读、文化课程、哲学分享 | #6B7A5A | 留白、宁静、东方美学，适合慢节奏的文本阐释 |
+| `示例_谷歌风年度报告` | Example-derived | 年度总结、技术成果汇报、团队复盘、项目盘点 | #4285F4 | 明快、干净、数据友好，以四色点缀建立节奏 |
+| `示例_暗色代码调试` | Example-derived | 开发者培训、工程方法论、排障流程、内部技术分享 | #58A6FF | 暗色代码、流程清晰、适合步骤化方法讲解 |
+| `示例_技术对比AI编程工具` | Example-derived | 工具评测、竞品分析、技术选型、横向对比 | #2563EB | 清爽、评测导向、强调对比维度和结论 |
+| `示例_咨询风依恋心理` | Example-derived | 心理学课程、咨询培训、临床理论汇报、研究综述 | #1E3A5F | 专业、温和、咨询式结构，兼顾治疗主题的人文温度 |
+| `示例_咨询风AI代理` | Example-derived | AI 架构、智能体设计、技术战略、开发者分享 | #D97757 | 咨询式结论先行，带 Anthropic 风格的暖橙科技感 |
+| `示例_咨询风甘孜财政` | Example-derived | 财政分析、区域经济、政府汇报、投融资研究 | #1E3A5F | 稳健、正式、数据密集，带区域文化色彩的政府咨询风 |
+| `示例_咨询风重庆区域` | Example-derived | 区域研究、财政金融、城投分析、风险研判 | #1E3A5F | 专业金融研究、结构化、适合复杂指标与表格呈现 |
+| `示例_高端咨询南欧江` | Example-derived | 基础设施评估、能源项目、国际工程、风险战略汇报 | #003F6C | 高端咨询、深水蓝调、具有危机评估和战略判断张力 |
+| `示例_高端咨询汽车认证` | Example-derived | 五年规划、认证检测、汽车产业、绿色低碳战略 | #003F6C | 高端咨询、深海蓝与活力绿，适合规划型汇报 |
+| `示例_麦肯锡客户忠诚` | Example-derived | 客户研究、忠诚度分析、经营诊断、商业策略汇报 | #005587 | 经典咨询、MECE、极简数据驱动，强调结论与图表 |
 ---
 
 ## Template Categories
@@ -95,6 +110,28 @@ Unconventional visual styles for specific creative scenarios.
 | Template | Description |
 |----------|-------------|
 | `pixel_retro` | Pixel retro style, cyberpunk / gaming themes |
+
+### 6. Example-Derived Templates
+
+Reusable layout templates abstracted from curated `examples/` projects. These packages preserve the source examples' visual language while replacing project-specific copy, data, and slide content with standard placeholders.
+
+| Template | Description |
+|----------|-------------|
+| `示例_项目介绍` | 从 PPT Master 项目介绍案例抽象出的通用产品/项目介绍模板。 |
+| `示例_暗色科技自动模式` | 从 Claude Code Auto Mode 案例抽象出的暗色 AI 安全/工程深潜模板。 |
+| `示例_像素风Git入门` | 从 Git 入门像素风案例抽象出的复古技术教学模板。 |
+| `示例_易理风谦卦` | 从地山谦卦研究案例抽象出的东方哲思与传统文化研究模板。 |
+| `示例_禅意风金刚经` | 从金刚经研究案例抽象出的禅意留白与经典研读模板。 |
+| `示例_谷歌风年度报告` | 从 Google 年度报告案例抽象出的轻量品牌色年度总结模板。 |
+| `示例_暗色代码调试` | 从 Debug 六步法案例抽象出的代码培训与方法论模板。 |
+| `示例_技术对比AI编程工具` | 从三大 AI 编程工具横向对比案例抽象出的技术评测模板。 |
+| `示例_咨询风依恋心理` | 从心理治疗中的依恋案例抽象出的咨询式心理学课程模板。 |
+| `示例_咨询风AI代理` | 从构建有效 AI 代理案例抽象出的 AI 架构与技术策略模板。 |
+| `示例_咨询风甘孜财政` | 从甘孜州经济财政分析案例抽象出的政府财政与区域分析模板。 |
+| `示例_咨询风重庆区域` | 从重庆市区域报告案例抽象出的区域金融研究与风险分析模板。 |
+| `示例_高端咨询南欧江` | 从南欧江水电站战略评估案例抽象出的重大工程战略评估模板。 |
+| `示例_高端咨询汽车认证` | 从汽车认证五年战略规划案例抽象出的认证机构战略规划模板。 |
+| `示例_麦肯锡客户忠诚` | 从客户忠诚度分析案例抽象出的经典麦肯锡式咨询模板。 |
 
 > **Design philosophy**: Style and scenario are **orthogonal** concepts. Scenario templates define content structure; style templates define visual presentation. In theory, scenario templates can be combined with different styles.
 

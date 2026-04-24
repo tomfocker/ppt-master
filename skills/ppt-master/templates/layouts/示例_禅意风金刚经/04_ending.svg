@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F7F4EA"/>
+  <circle cx="1050" cy="190" r="132" fill="none" stroke="#6B7A5A" stroke-width="18" stroke-opacity="0.22"/>
+  <path d="M878 552 C1006 468 1115 482 1224 402" fill="none" stroke="#B08D57" stroke-width="3" stroke-opacity="0.45"/>
+  <circle cx="160" cy="590" r="44" fill="#6B7A5A" fill-opacity="0.10"/>
+  
+  <rect x="100" y="126" width="1080" height="420" fill="#FFFDF6" fill-opacity="0.9" rx="8"/>
+  <text x="640" y="292" text-anchor="middle" fill="#27332B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="60" font-weight="700">{{THANK_YOU}}</text>
+  <line x1="470" y1="340" x2="810" y2="340" stroke="#6B7A5A" stroke-width="4"/>
+  <text x="640" y="402" text-anchor="middle" fill="#475569" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22">{{CONTACT_INFO}}</text>
+  <text x="640" y="628" text-anchor="middle" fill="#475569" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13">{{COPYRIGHT}}</text>
+</svg>

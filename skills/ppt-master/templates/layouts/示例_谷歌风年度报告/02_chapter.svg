@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <circle cx="930" cy="124" r="18" fill="#4285F4"/>
+  <circle cx="992" cy="124" r="18" fill="#EA4335"/>
+  <circle cx="1054" cy="124" r="18" fill="#FBBC04"/>
+  <circle cx="1116" cy="124" r="18" fill="#34A853"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#4285F4"/><rect x="320" y="0" width="320" height="8" fill="#EA4335"/><rect x="640" y="0" width="320" height="8" fill="#FBBC04"/><rect x="960" y="0" width="320" height="8" fill="#34A853"/>
+  
+  <rect x="80" y="118" width="1120" height="430" fill="#F8Fafd" fill-opacity="0.9" rx="8"/>
+  <text x="126" y="220" fill="#34A853" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700">CHAPTER {{CHAPTER_NUM}}</text>
+  <text x="126" y="342" fill="#202124" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="58" font-weight="700">{{CHAPTER_TITLE}}</text>
+  <line x1="126" y1="394" x2="760" y2="394" stroke="#4285F4" stroke-width="4"/>
+  <text x="126" y="454" fill="#64748B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22">{{CHAPTER_DESC}}</text>
+</svg>

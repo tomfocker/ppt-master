@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F8FB"/>
+  <path d="M0 570 C260 505 430 640 690 574 C900 520 1030 550 1280 486 L1280 720 L0 720 Z" fill="#003F6C" fill-opacity="0.10"/>
+  <path d="M0 620 C280 560 420 684 712 624 C930 580 1040 612 1280 540" fill="none" stroke="#F59E0B" stroke-width="4" stroke-opacity="0.35"/>
+  
+  <rect x="80" y="118" width="1120" height="430" fill="#FFFFFF" fill-opacity="0.9" rx="8"/>
+  <text x="126" y="220" fill="#F59E0B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="24" font-weight="700">CHAPTER {{CHAPTER_NUM}}</text>
+  <text x="126" y="342" fill="#102A43" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="58" font-weight="700">{{CHAPTER_TITLE}}</text>
+  <line x1="126" y1="394" x2="760" y2="394" stroke="#003F6C" stroke-width="4"/>
+  <text x="126" y="454" fill="#64748B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22">{{CHAPTER_DESC}}</text>
+</svg>

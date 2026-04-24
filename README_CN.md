@@ -4,7 +4,7 @@
 
 > 原版项目由 Hugo He 创建并维护，采用 MIT License。本 fork 主要用于模板扩展和二次实践。
 
-[English](./README.md) | 中文
+中文 | [English](./README_EN.md)
 
 ---
 

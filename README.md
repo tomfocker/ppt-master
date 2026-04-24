@@ -1,138 +1,140 @@
 # PPT Master Fork
 
-This repository is a fork of [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master). It keeps the original workflow for generating natively editable PPTX files from PDF, DOCX, URL, and Markdown sources, and adds reusable template assets on top.
+本仓库是 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 的 fork，保留原版“把 PDF / DOCX / URL / Markdown 生成原生可编辑 PPTX”的完整工作流，并在此基础上补充更适合复用的模板资产。
 
-> The original project is created and maintained by Hugo He under the MIT License. This fork focuses on reusable template expansion.
+> 原版项目由 Hugo He 创建并维护，采用 MIT License。本 fork 主要用于模板扩展和二次实践。
 
-English | [中文](./README_CN.md)
+中文 | [English](./README_EN.md)
 
 ---
 
-## What This Fork Adds
+## 相对原版的升级
 
-### 1. Example-Derived Templates
+### 1. 新增示例衍生模板
 
-This fork turns selected high-quality `examples/` projects into reusable layout templates under:
+本 fork 把一批高质量 `examples/` 项目抽象成可复用模板，放入：
 
 ```text
 skills/ppt-master/templates/layouts/
 ```
 
-These templates preserve the original visual language, page structure, and pacing, while replacing project-specific content with reusable placeholders.
+这些模板不再绑定原始案例内容，而是保留其视觉语言、页面结构和设计节奏，适合直接在新 PPT 任务中点名使用。
 
-New example-derived templates include:
+新增的示例衍生模板包括：
 
-| Template | Use cases |
-|----------|-----------|
-| `示例_项目介绍` | Product intros, project pitches, internal briefings |
-| `示例_暗色科技自动模式` | AI safety, engineering architecture, R&D sharing |
-| `示例_像素风Git入门` | Technical training, developer onboarding |
-| `示例_易理风谦卦` | Traditional culture, philosophy, humanities lectures |
-| `示例_禅意风金刚经` | Buddhist studies, classic text reading, cultural courses |
-| `示例_谷歌风年度报告` | Annual reports, team reviews, project summaries |
-| `示例_暗色代码调试` | Developer training, debugging methodology |
-| `示例_技术对比AI编程工具` | Tool reviews, competitive analysis, technical selection |
-| `示例_咨询风依恋心理` | Psychology courses, counseling training |
-| `示例_咨询风AI代理` | AI agents, architecture, technical strategy |
-| `示例_咨询风甘孜财政` | Fiscal analysis, regional economy, government reports |
-| `示例_咨询风重庆区域` | Regional research, finance, risk analysis |
-| `示例_高端咨询南欧江` | Infrastructure, energy projects, international engineering |
-| `示例_高端咨询汽车认证` | Five-year plans, automotive certification, strategy |
-| `示例_麦肯锡客户忠诚` | Customer research, loyalty analysis, business strategy |
+| 模板 | 适合场景 |
+|------|----------|
+| `示例_项目介绍` | 产品介绍、项目路演、工具说明、内部宣讲 |
+| `示例_暗色科技自动模式` | AI 安全、工程架构、研发分享 |
+| `示例_像素风Git入门` | 技术培训、开发者入门课、游戏化知识分享 |
+| `示例_易理风谦卦` | 传统文化研究、国学课程、哲学主题汇报 |
+| `示例_禅意风金刚经` | 佛学讲座、经典研读、文化课程 |
+| `示例_谷歌风年度报告` | 年度总结、团队复盘、项目盘点 |
+| `示例_暗色代码调试` | 开发者培训、工程方法论、排障流程 |
+| `示例_技术对比AI编程工具` | 工具评测、竞品分析、技术选型 |
+| `示例_咨询风依恋心理` | 心理学课程、咨询培训、研究综述 |
+| `示例_咨询风AI代理` | AI 架构、智能体设计、技术战略 |
+| `示例_咨询风甘孜财政` | 财政分析、区域经济、政府汇报 |
+| `示例_咨询风重庆区域` | 区域研究、财政金融、风险研判 |
+| `示例_高端咨询南欧江` | 基础设施评估、能源项目、国际工程 |
+| `示例_高端咨询汽车认证` | 五年规划、认证检测、汽车产业战略 |
+| `示例_麦肯锡客户忠诚` | 客户研究、忠诚度分析、商业策略 |
 
-### 2. Expanded Layout Library
+### 2. 模板库扩展到 36 套
 
-The layout library now contains 36 templates across brand, government, business, academic, medical, psychology, and example-derived styles.
+当前模板索引包含品牌风、政企风、通用商务风、学术/医疗/心理等场景模板，以及本 fork 新增的示例衍生模板。
 
-See:
+完整索引：
 
-- [Template README](./skills/ppt-master/templates/layouts/README.md)
-- [Machine-readable index](./skills/ppt-master/templates/layouts/layouts_index.json)
+- [模板说明](./skills/ppt-master/templates/layouts/README.md)
+- [机器可读索引](./skills/ppt-master/templates/layouts/layouts_index.json)
 
-## Usage
+## 使用方式
 
-### 1. Install
+### 1. 安装依赖
 
-Requires Python 3.10+.
+需要 Python 3.10+。
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Windows users can follow:
+Windows 用户可参考原版文档：
 
-- [Windows Installation Guide](./docs/windows-installation.md)
+- [Windows 安装指南](./docs/zh/windows-installation.md)
 
-### 2. Add Source Materials
+### 2. 放入资料
 
-Put PDF, DOCX, Markdown, images, or other source files under `projects/`, for example:
+建议把 PDF、DOCX、Markdown、图片等资料放到 `projects/` 目录下，例如：
 
 ```text
 projects/my-report/sources/report.pdf
 ```
 
-### 3. Ask an AI Agent
+### 3. 在 AI Agent 里发起任务
 
-The upstream project already provides [AGENTS.md](./AGENTS.md) as the entry point for general AI agents. When using this fork, still ask the agent to read `AGENTS.md` and `skills/ppt-master/SKILL.md` before generation.
+原版已经提供 [AGENTS.md](./AGENTS.md) 作为通用 AI Agent 入口。使用本 fork 时，仍建议让 Agent 先读取 `AGENTS.md` 和 `skills/ppt-master/SKILL.md`，再开始生成。
 
-Free design:
-
-```text
-Please read AGENTS.md and skills/ppt-master/SKILL.md,
-then create a 16:9 PPT from projects/my-report/sources/report.pdf.
-```
-
-Use one of this fork's new templates:
+普通自由设计：
 
 ```text
-Please read AGENTS.md and skills/ppt-master/SKILL.md,
-use the 「示例_麦肯锡客户忠诚」 template,
-and create a 16:9 PPT from projects/customer-research/sources/report.pdf.
+请读取 AGENTS.md 和 skills/ppt-master/SKILL.md，
+然后用 projects/my-report/sources/report.pdf 生成一份 16:9 PPT。
 ```
 
-Use an existing upstream template:
+指定本 fork 新增模板：
 
 ```text
-Please use the mckinsey template for a consulting-style deck.
+请读取 AGENTS.md 和 skills/ppt-master/SKILL.md，
+用「示例_麦肯锡客户忠诚」模板，
+根据 projects/customer-research/sources/report.pdf 生成一份 16:9 PPT。
 ```
 
-> Template usage is opt-in. If you do not name a template, the workflow defaults to free design.
+指定其他模板：
 
-### 4. Output
+```text
+请使用 mckinsey 模板生成咨询风 PPT。
+```
 
-Generated files are saved under the project's `exports/` directory:
+> 模板是 opt-in 的：只有你明确点名模板时，工作流才会使用模板；否则默认自由设计。
+
+### 4. 生成结果
+
+生成完成后，导出的文件会保存到项目的 `exports/` 目录中，通常包含：
 
 ```text
 *.pptx
 *_svg.pptx
 ```
 
-- `.pptx`: natively editable PowerPoint shapes
-- `_svg.pptx`: visual reference version
+- `.pptx`：原生 PowerPoint 形状版本，可直接编辑
+- `_svg.pptx`：视觉参考版本
 
 ---
 
-## Common Commands
+## 常用命令
 
-Initialize a project:
+### 初始化项目
 
 ```bash
 python3 skills/ppt-master/scripts/project_manager.py init my_deck --format ppt169
 ```
 
-Import sources:
+### 导入资料
 
 ```bash
 python3 skills/ppt-master/scripts/project_manager.py import-sources projects/my_deck path/to/source.pdf --move
 ```
 
-Validate:
+### 校验项目
 
 ```bash
 python3 skills/ppt-master/scripts/project_manager.py validate projects/my_deck
 ```
 
-Export, one command at a time:
+### 后处理导出
+
+以下命令必须按顺序单独执行，不要合并成一条命令：
 
 ```bash
 python3 skills/ppt-master/scripts/total_md_split.py projects/my_deck
@@ -148,16 +150,16 @@ python3 skills/ppt-master/scripts/svg_to_pptx.py projects/my_deck -s final
 
 ---
 
-## Upstream Sync
+## 与原版保持同步
 
-This fork tracks the original project as upstream:
+本 fork 以原版为上游：
 
 ```text
 upstream: https://github.com/hugohe3/ppt-master
 origin:   https://github.com/tomfocker/ppt-master
 ```
 
-To sync upstream changes:
+如需同步上游：
 
 ```bash
 git fetch upstream
@@ -166,18 +168,18 @@ git merge upstream/main
 
 ---
 
-## Key Docs
+## 重要文档
 
-| Document | Description |
-|----------|-------------|
-| [AGENTS.md](./AGENTS.md) | Entry point for general AI coding agents |
-| [SKILL.md](./skills/ppt-master/SKILL.md) | Full PPT Master workflow |
-| [Template README](./skills/ppt-master/templates/layouts/README.md) | Template list and structure |
-| [Scripts README](./skills/ppt-master/scripts/README.md) | Conversion, project, and export tools |
-| [FAQ](./docs/faq.md) | Troubleshooting |
+| 文档 | 说明 |
+|------|------|
+| [AGENTS.md](./AGENTS.md) | 通用 AI Agent 入口说明 |
+| [SKILL.md](./skills/ppt-master/SKILL.md) | PPT Master 完整工作流 |
+| [模板库 README](./skills/ppt-master/templates/layouts/README.md) | 当前模板清单与模板结构 |
+| [脚本说明](./skills/ppt-master/scripts/README.md) | 转换、项目管理、导出等工具 |
+| [FAQ](./docs/zh/faq.md) | 常见问题 |
 
 ---
 
 ## License
 
-This fork inherits the original MIT License. Copyright and attribution for the original project belong to Hugo He and contributors.
+本 fork 继承原项目的 MIT License。原项目版权和署名归原作者 Hugo He 及贡献者所有。

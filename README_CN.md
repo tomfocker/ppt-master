@@ -49,6 +49,13 @@ skills/ppt-master/templates/layouts/
 - [模板说明](./skills/ppt-master/templates/layouts/README.md)
 - [机器可读索引](./skills/ppt-master/templates/layouts/layouts_index.json)
 
+### 3. 新增风格样片库
+
+本 fork 增加了一组 16:9 风格参考图，用于新模板设计、风格选择和视觉对齐。样片不是最终 PPT 页面，使用时应重建为可编辑 SVG / DrawingML 元素。
+
+- [风格样片库](./skills/ppt-master/templates/style_samples/README.md)
+- [样片索引](./skills/ppt-master/templates/style_samples/style_samples_index.json)
+
 ## 使用方式
 
 ### 1. 安装依赖

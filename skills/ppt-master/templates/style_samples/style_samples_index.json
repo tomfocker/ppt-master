@@ -1,0 +1,74 @@
+{
+  "consulting_executive": {
+    "file": "images/consulting_executive_sample.png",
+    "label": "High-End Consulting Executive Sample",
+    "use_cases": ["strategy consulting", "board report", "investment analysis", "executive presentation"],
+    "visual_direction": "Deep navy and white executive grid with restrained cyan and gold accents; precise consulting hierarchy."
+  },
+  "government_red": {
+    "file": "images/government_red_sample.png",
+    "label": "Government Red Formal Report Sample",
+    "use_cases": ["government report", "SOE briefing", "formal policy report", "party-building adjacent report"],
+    "visual_direction": "Deep red, ivory, muted gold, symmetrical report structure, official document rhythm."
+  },
+  "dark_ai_engineering": {
+    "file": "images/dark_ai_engineering_sample.png",
+    "label": "Dark AI Engineering Sample",
+    "use_cases": ["AI safety", "engineering architecture", "system review", "developer conference"],
+    "visual_direction": "Near-black technical interface with slate panels, blue/cyan architecture modules, and amber risk accents."
+  },
+  "academic_research": {
+    "file": "images/academic_research_sample.png",
+    "label": "Academic Research Sample",
+    "use_cases": ["thesis defense", "academic report", "research proposal", "grant proposal"],
+    "visual_direction": "University blue research grid with methodology blocks, finding panels, and scholarly spacing."
+  },
+  "medical_university": {
+    "file": "images/medical_university_sample.png",
+    "label": "Medical University Sample",
+    "use_cases": ["hospital report", "case discussion", "clinical research", "medical lecture"],
+    "visual_direction": "Clean medical blue and white canvas with protocol flow, clinical metrics, and case overview modules."
+  },
+  "premium_finance": {
+    "file": "images/premium_finance_sample.png",
+    "label": "Premium Finance Sample",
+    "use_cases": ["banking", "wealth management", "transaction banking", "finance executive report"],
+    "visual_direction": "Bank red, pearl white, graphite, and warm gold accents with premium borderless report modules."
+  },
+  "tech_annual_report": {
+    "file": "images/tech_annual_report_sample.png",
+    "label": "Technology Annual Report Sample",
+    "use_cases": ["annual report", "team review", "product analytics", "OKR summary"],
+    "visual_direction": "Bright white dashboard layout with four-color accents, clean cards, and friendly data storytelling."
+  },
+  "psychology_counseling": {
+    "file": "images/psychology_counseling_sample.png",
+    "label": "Psychology Counseling Sample",
+    "use_cases": ["psychology course", "counseling training", "attachment theory", "clinical education"],
+    "visual_direction": "Warm blue-green therapeutic palette with soft panels, relationship maps, and reflective cards."
+  },
+  "pixel_retro_training": {
+    "file": "images/pixel_retro_training_sample.png",
+    "label": "Pixel Retro Developer Training Sample",
+    "use_cases": ["developer onboarding", "Git training", "gamified technical education", "retro tech lecture"],
+    "visual_direction": "Dark pixel grid with neon green, magenta, cyan, and blocky learning interface rhythm."
+  },
+  "zen_classics": {
+    "file": "images/zen_classics_sample.png",
+    "label": "Zen Classics Sample",
+    "use_cases": ["classical text study", "philosophy lecture", "traditional culture", "humanities course"],
+    "visual_direction": "Ink-wash restraint, warm paper texture, moss green and cinnabar accents, large negative space."
+  },
+  "energy_infrastructure": {
+    "file": "images/energy_infrastructure_sample.png",
+    "label": "Energy Infrastructure Consulting Sample",
+    "use_cases": ["infrastructure strategy", "energy project", "international engineering", "investment review"],
+    "visual_direction": "Deep sea blue consulting layout with project map, risk matrix, and financial sensitivity modules."
+  },
+  "automotive_certification": {
+    "file": "images/automotive_certification_sample.png",
+    "label": "Automotive Certification Sample",
+    "use_cases": ["automotive testing", "certification institute", "green mobility strategy", "technical roadmap"],
+    "visual_direction": "Deep blue technical report with cyan and green accents, testing pipeline, matrix, and roadmap modules."
+  }
+}

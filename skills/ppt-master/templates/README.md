@@ -21,6 +21,13 @@ The `layouts/` directory contains pre-built page layout templates organized by d
 - **Human browsing**: [layouts/README.md](./layouts/README.md)
 - **Slim lookup (opt-in)**: [layouts/layouts_index.json](./layouts/layouts_index.json) — only consulted when the user explicitly opts into the template flow
 
+## Style Samples
+
+The `style_samples/` directory contains reusable 16:9 raster reference boards for template design. These are not final PPT pages; they are visual direction samples for building editable SVG / DrawingML layouts.
+
+- **Human browsing**: [style_samples/README.md](./style_samples/README.md)
+- **AI / Programmatic lookup**: [style_samples/style_samples_index.json](./style_samples/style_samples_index.json)
+
 ## Visualization Templates
 
 The `charts/` directory contains 57 standardized visualization templates. For backward compatibility, the directory name remains `charts/`, but its scope includes charts, infographics, process diagrams, relationship diagrams, strategic frameworks, and system architecture diagrams:

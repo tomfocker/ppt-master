@@ -49,6 +49,13 @@ See:
 - [Template README](./skills/ppt-master/templates/layouts/README.md)
 - [Machine-readable index](./skills/ppt-master/templates/layouts/layouts_index.json)
 
+### 3. Style Sample Library
+
+This fork adds a set of 16:9 raster style reference boards for new template design, style selection, and visual alignment. These samples are not final PPT pages; rebuild them as editable SVG / DrawingML elements when creating slides.
+
+- [Style Sample README](./skills/ppt-master/templates/style_samples/README.md)
+- [Style sample index](./skills/ppt-master/templates/style_samples/style_samples_index.json)
+
 ## Usage
 
 ### 1. Install

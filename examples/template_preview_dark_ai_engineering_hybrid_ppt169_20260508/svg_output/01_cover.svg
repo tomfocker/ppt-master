@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="../images/cover_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#0B1020" opacity="0.12"/>
+  <rect x="86" y="188" width="7" height="244" fill="#22D3EE"/>
+  <text x="122" y="250" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700">Hybrid Visual</text>
+  <text x="122" y="312" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700">暗色工程模板</text>
+  <text x="124" y="370" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22">原生生图背景 + 可编辑 SVG 信息层</text>
+  <text x="124" y="422" fill="#58A6FF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700">AI 安全 · 系统架构 · 研发复盘</text>
+  <line x1="86" y1="610" x2="626" y2="610" stroke="#243044"/>
+  <text x="86" y="652" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">2026-05-08</text>
+  <text x="626" y="652" text-anchor="end" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">PPT Master Fork</text>
+</svg>

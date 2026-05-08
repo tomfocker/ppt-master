@@ -1,6 +1,6 @@
 # PPT Master Example Projects
 
-> This directory contains **16 curated example projects** covering consulting style, general-purpose style, creative style, template previews, and other design paradigms, totaling **234 SVG presentation pages**.
+> This directory contains **17 curated example projects** covering consulting style, general-purpose style, creative style, template previews, and other design paradigms, totaling **237 SVG presentation pages**.
 
 **[Preview all example projects online](https://hugohe3.github.io/ppt-master/)**
 
@@ -11,11 +11,28 @@
 | Consulting Style | 8 | 142 pages | Data-driven, structured, professional whitespace |
 | General-Purpose | 3 | 32 pages | Flexible layouts, diverse themes |
 | Creative Style | 4 | 55 pages | Unique visual language, cultural aesthetics |
-| Template Preview | 1 | 5 pages | Reusable layout-template style validation |
+| Template Preview | 2 | 8 pages | Reusable layout-template and hybrid visual validation |
 
 ---
 
 ## Template Preview Examples
+
+### template_preview_dark_ai_engineering_hybrid_ppt169_20260508
+
+> **3 pages** - Hybrid visual template preview
+
+| Property | Details |
+|----------|---------|
+| **Canvas Format** | PPT 16:9 (1280x720) |
+| **Template** | `dark_ai_engineering_hybrid` |
+| **Design Style** | Raster-generated dark AI background + editable SVG information layer |
+| **Color Scheme** | Near-black #050915 + blue #58A6FF + cyan #22D3EE |
+
+**Key Features**: Demonstrates a hybrid approach for decks that need stronger visual atmosphere than pure SVG layouts while keeping text, cards, metrics, and charts editable in native PowerPoint output.
+
+[View Project](./template_preview_dark_ai_engineering_hybrid_ppt169_20260508/) | [Preview Contact Sheet](./template_preview_dark_ai_engineering_hybrid_ppt169_20260508/previews/overview.png)
+
+---
 
 ### template_preview_dark_ai_engineering_ppt169_20260508
 

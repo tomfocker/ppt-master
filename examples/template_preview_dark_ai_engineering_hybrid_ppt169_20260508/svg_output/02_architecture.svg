@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="../images/content_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#0B1020" opacity="0.10"/>
+  <text x="56" y="58" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700">架构页：三层安全控制器</text>
+  <rect x="56" y="84" width="1168" height="58" rx="8" fill="#58A6FF" opacity="0.95"/>
+  <rect x="56" y="84" width="7" height="58" fill="#22D3EE"/>
+  <text x="78" y="121" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">背景负责空间和质感；节点、连线、标签保持可编辑。</text>
+  <rect x="74" y="184" width="300" height="296" rx="16" fill="#0F172A" opacity="0.82" stroke="#243044"/>
+  <rect x="490" y="184" width="300" height="296" rx="16" fill="#0F172A" opacity="0.82" stroke="#243044"/>
+  <rect x="906" y="184" width="300" height="296" rx="16" fill="#0F172A" opacity="0.82" stroke="#243044"/>
+  <line x1="374" y1="332" x2="490" y2="332" stroke="#22D3EE" stroke-width="3"/>
+  <line x1="790" y1="332" x2="906" y2="332" stroke="#58A6FF" stroke-width="3"/>
+  <circle cx="432" cy="332" r="6" fill="#22D3EE"/>
+  <circle cx="848" cy="332" r="6" fill="#58A6FF"/>
+  <text x="106" y="238" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">01 输入探针</text>
+  <text x="522" y="238" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">02 权限分层</text>
+  <text x="938" y="238" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">03 动作分类器</text>
+  <text x="106" y="298" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">扫描文件、网页、命令输出</text>
+  <text x="106" y="338" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">标记注入与越权线索</text>
+  <text x="106" y="378" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">给上下文添加风险提示</text>
+  <text x="522" y="298" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">安全读取直接放行</text>
+  <text x="522" y="338" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">项目内编辑依赖版本控制</text>
+  <text x="522" y="378" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">外部动作进入判定</text>
+  <text x="938" y="298" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">快速过滤常规请求</text>
+  <text x="938" y="338" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">必要时深度推理</text>
+  <text x="938" y="378" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">输出允许 / 确认 / 阻断</text>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#243044"/>
+  <text x="56" y="678" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10">Source: hybrid template preview</text>
+  <text x="1224" y="678" text-anchor="end" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12">02</text>
+</svg>

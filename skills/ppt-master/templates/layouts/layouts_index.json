@@ -208,5 +208,10 @@
     "label": "Energy Infrastructure Template",
     "summary": "Deep-blue infrastructure consulting template for energy projects, international engineering, and investment reviews.",
     "keywords": ["Energy", "Infrastructure", "Engineering", "Investment review"]
+  },
+  "dark_ai_engineering_hybrid": {
+    "label": "Dark AI Engineering Hybrid Template",
+    "summary": "Hybrid visual template for AI safety, architecture reviews, and engineering deep dives, using raster atmosphere backgrounds plus editable SVG information layers.",
+    "keywords": ["AI", "Engineering", "Hybrid visual", "Dark tech"]
   }
 }

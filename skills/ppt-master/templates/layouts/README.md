@@ -1,4 +1,4 @@
-# Page Layout Template Library (42 Templates)
+# Page Layout Template Library (43 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -51,6 +51,7 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `示例_麦肯锡客户忠诚` | Example-derived | 客户研究、忠诚度分析、经营诊断、商业策略汇报 | #005587 | 经典咨询、MECE、极简数据驱动，强调结论与图表 |
 | `premium_finance` | Style Library | 银行、财富管理、交易银行、金融高管汇报 | #8B1020 | 高端金融、温润留白、红金点缀，适合产品方案与经营汇报 |
 | `dark_ai_engineering` | Style Library | AI 安全、工程架构、系统评审、开发者分享 | #58A6FF | 深色工程界面、系统图、风险矩阵，适合技术深潜 |
+| `dark_ai_engineering_hybrid` | Style Library | AI 安全、工程架构、技术深潜、研发复盘 | #58A6FF | 生图背景质感 + 可编辑信息层，适合观感优先的技术汇报 |
 | `consulting_executive` | Style Library | 董事会汇报、战略咨询、投资分析、市场研究 | #005587 | 高端咨询、强网格、结论先行，强调数据和决策层阅读 |
 | `government_red_modern` | Style Library | 政府报告、国企汇报、政策沟通、年度总结 | #9B111E | 现代政企红、正式稳重、象征性克制 |
 | `zen_classics` | Style Library | 经典研读、哲学课程、传统文化、人文讲座 | #4F5B45 | 宣纸留白、东方水墨、沉静克制，适合慢节奏阐释 |
@@ -131,6 +132,7 @@ Reusable style packages converted from the `style_samples/` visual direction boa
 |----------|-------------|
 | `premium_finance` | Premium finance and banking report style with red, pearl white, graphite, and gold accents. |
 | `dark_ai_engineering` | Dark AI engineering style with technical panels, architecture-review rhythm, and cyan/blue accents. |
+| `dark_ai_engineering_hybrid` | Hybrid AI engineering style using raster-generated atmospheric backgrounds with editable SVG text, cards, and charts. |
 | `consulting_executive` | Executive consulting style with deep navy grid discipline and board-report hierarchy. |
 | `government_red_modern` | Modern formal red style for government and SOE reporting. |
 | `zen_classics` | Zen-inspired cultural lecture style with warm paper, ink, moss green, and cinnabar accents. |

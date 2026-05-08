@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="../images/content_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#0B1020" opacity="0.10"/>
+  <text x="56" y="58" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700">指标页：低摩擦权限控制面板</text>
+  <rect x="56" y="84" width="1168" height="58" rx="8" fill="#58A6FF" opacity="0.95"/>
+  <rect x="56" y="84" width="7" height="58" fill="#22D3EE"/>
+  <text x="78" y="121" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">数字、图表、进度条都是可编辑层，背景只负责高级感。</text>
+  <rect x="66" y="178" width="250" height="132" rx="14" fill="#0F172A" opacity="0.84" stroke="#243044"/>
+  <rect x="350" y="178" width="250" height="132" rx="14" fill="#0F172A" opacity="0.84" stroke="#243044"/>
+  <rect x="634" y="178" width="250" height="132" rx="14" fill="#0F172A" opacity="0.84" stroke="#243044"/>
+  <rect x="918" y="178" width="250" height="132" rx="14" fill="#0F172A" opacity="0.84" stroke="#243044"/>
+  <text x="96" y="222" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">误报率</text>
+  <text x="96" y="272" fill="#34D399" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700">0.4%</text>
+  <text x="380" y="222" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">拦截覆盖</text>
+  <text x="380" y="272" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700">83%</text>
+  <text x="664" y="222" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">延迟影响</text>
+  <text x="664" y="272" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700">低</text>
+  <text x="948" y="222" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">权限层级</text>
+  <text x="948" y="272" fill="#58A6FF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="700">3</text>
+  <rect x="66" y="350" width="538" height="210" rx="14" fill="#0F172A" opacity="0.84" stroke="#243044"/>
+  <text x="98" y="398" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">风险动作趋势</text>
+  <polyline points="110,514 184,490 258,502 332,452 406,462 480,414 556,388" fill="none" stroke="#22D3EE" stroke-width="4"/>
+  <polyline points="110,456 184,446 258,438 332,424 406,414 480,404 556,390" fill="none" stroke="#58A6FF" stroke-width="3" opacity="0.72"/>
+  <rect x="644" y="350" width="524" height="210" rx="14" fill="#0F172A" opacity="0.84" stroke="#243044"/>
+  <text x="676" y="398" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">权限分层状态</text>
+  <rect x="680" y="430" width="420" height="28" rx="5" fill="#111827"/>
+  <rect x="680" y="430" width="382" height="28" rx="5" fill="#34D399"/>
+  <rect x="680" y="482" width="420" height="28" rx="5" fill="#111827"/>
+  <rect x="680" y="482" width="292" height="28" rx="5" fill="#58A6FF"/>
+  <rect x="680" y="534" width="420" height="28" rx="5" fill="#111827"/>
+  <rect x="680" y="534" width="126" height="28" rx="5" fill="#F59E0B"/>
+  <text x="1120" y="450" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">安全读取</text>
+  <text x="1120" y="502" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">项目内编辑</text>
+  <text x="1120" y="554" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">外部动作</text>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#243044"/>
+  <text x="56" y="678" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10">Source: hybrid template preview</text>
+  <text x="1224" y="678" text-anchor="end" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12">03</text>
+</svg>

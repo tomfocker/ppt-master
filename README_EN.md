@@ -42,7 +42,7 @@ New example-derived templates include:
 
 ### 2. Expanded Layout Library
 
-The layout library now contains 42 templates across brand, government, business, academic, medical, psychology, example-derived, and style-library templates.
+The layout library now contains 43 templates across brand, government, business, academic, medical, psychology, example-derived, and style-library templates.
 
 See:
 
@@ -56,7 +56,9 @@ This fork adds a set of 16:9 raster style reference boards for new template desi
 - [Style Sample README](./skills/ppt-master/templates/style_samples/README.md)
 - [Style sample index](./skills/ppt-master/templates/style_samples/style_samples_index.json)
 
-Six high-frequency directions have also been converted into directly usable `layouts/` templates: `premium_finance`, `dark_ai_engineering`, `consulting_executive`, `government_red_modern`, `zen_classics`, and `energy_infrastructure`.
+Seven high-frequency directions have also been converted into directly usable `layouts/` templates: `premium_finance`, `dark_ai_engineering`, `dark_ai_engineering_hybrid`, `consulting_executive`, `government_red_modern`, `zen_classics`, and `energy_infrastructure`.
+
+`dark_ai_engineering_hybrid` is a hybrid template: raster-generated backgrounds provide stronger native image quality, while titles, cards, metrics, and charts remain editable SVG / DrawingML information layers.
 
 ## Usage
 

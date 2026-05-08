@@ -1,0 +1,1 @@
+这是 dark_ai_engineering_hybrid 的封面样例。背景是不可编辑的视觉层，标题和说明是可编辑的 SVG 文本。

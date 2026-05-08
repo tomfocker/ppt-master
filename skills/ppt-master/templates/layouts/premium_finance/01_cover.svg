@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FAF7F3"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#8B1020"/>
+  <rect x="0" y="10" width="1280" height="4" fill="#C8A45D"/>
+  <rect x="900" y="0" width="380" height="720" fill="#8B1020"/>
+  <rect x="940" y="90" width="260" height="380" fill="none" stroke="#C8A45D" stroke-width="2"/>
+  <rect x="980" y="130" width="180" height="260" fill="#F2E6E4"/>
+  <line x1="86" y1="610" x2="920" y2="610" stroke="#E7DAD5" stroke-width="1"/>
+  <rect x="88" y="206" width="6" height="188" fill="#C8A45D"/>
+  <text x="120" y="258" fill="#231F20" font-family="Arial, sans-serif" font-size="56" font-weight="700">{{TITLE}}</text>
+  <text x="122" y="318" fill="#7A6F68" font-family="Arial, sans-serif" font-size="24" font-weight="400">{{SUBTITLE}}</text>
+  <text x="122" y="382" fill="#8B1020" font-family="Arial, sans-serif" font-size="16" font-weight="700">{{AUTHOR}}</text>
+  <text x="122" y="642" fill="#7A6F68" font-family="Arial, sans-serif" font-size="14" font-weight="400">{{DATE}}</text>
+</svg>

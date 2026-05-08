@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F0E6"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#4F5B45"/>
+  <rect x="0" y="10" width="1280" height="4" fill="#A7472A"/>
+  <text x="640" y="286" fill="#20201D" font-family="Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle">{{THANK_YOU}}</text>
+  <line x1="420" y1="326" x2="860" y2="326" stroke="#A7472A" stroke-width="3"/>
+  <text x="640" y="378" fill="#7B7165" font-family="Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">{{CONTACT_INFO}}</text>
+  <text x="96" y="660" fill="#7B7165" font-family="Arial, sans-serif" font-size="12" font-weight="400">{{DATE}}</text>
+  <text x="1184" y="660" fill="#7B7165" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">{{PAGE_NUM}}</text>
+</svg>

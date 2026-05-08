@@ -178,5 +178,35 @@
     "label": "麦肯锡客户忠诚示例模板",
     "summary": "从客户忠诚度分析案例抽象出的经典麦肯锡式咨询模板。",
     "keywords": ["麦肯锡风", "客户忠诚", "商业策略", "咨询"]
+  },
+  "premium_finance": {
+    "label": "Premium Finance Template",
+    "summary": "Premium banking and finance template for wealth management, transaction banking, and executive finance reports.",
+    "keywords": ["Finance", "Banking", "Premium", "Executive report"]
+  },
+  "dark_ai_engineering": {
+    "label": "Dark AI Engineering Template",
+    "summary": "Dark technical template for AI safety, architecture reviews, system design, and developer presentations.",
+    "keywords": ["AI", "Engineering", "Architecture", "Dark tech"]
+  },
+  "consulting_executive": {
+    "label": "Consulting Executive Template",
+    "summary": "High-end executive consulting template for board reports, strategy decks, and investment analysis.",
+    "keywords": ["Consulting", "Executive", "Strategy", "Board report"]
+  },
+  "government_red_modern": {
+    "label": "Government Red Modern Template",
+    "summary": "Modern formal red template for government reports, SOE briefings, and policy-oriented presentations.",
+    "keywords": ["Government", "SOE", "Formal report", "Red"]
+  },
+  "zen_classics": {
+    "label": "Zen Classics Template",
+    "summary": "Ink-wash and paper-texture inspired template for classical text study, philosophy, and traditional culture lectures.",
+    "keywords": ["Zen", "Classics", "Traditional culture", "Humanities"]
+  },
+  "energy_infrastructure": {
+    "label": "Energy Infrastructure Template",
+    "summary": "Deep-blue infrastructure consulting template for energy projects, international engineering, and investment reviews.",
+    "keywords": ["Energy", "Infrastructure", "Engineering", "Investment review"]
   }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="7" fill="#005587"/>
+  <text x="56" y="58" fill="#061A33" font-family="Arial, sans-serif" font-size="26" font-weight="700">{{PAGE_TITLE}}</text>
+  <rect x="56" y="84" width="1168" height="58" fill="#005587" rx="6"/>
+  <rect x="56" y="84" width="7" height="58" fill="#D9A441"/>
+  <text x="78" y="121" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">{{KEY_MESSAGE}}</text>
+  <rect x="56" y="168" width="1168" height="430" fill="#F8FAFC" rx="8" stroke="#DDE5EE" stroke-width="1"/>
+  <text x="640" y="392" fill="#6B7280" font-family="Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">{{CONTENT_AREA}}</text>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#DDE5EE" stroke-width="1"/>
+  <text x="56" y="678" fill="#6B7280" font-family="Arial, sans-serif" font-size="10" font-weight="400">Source: {{SOURCE}}</text>
+  <text x="640" y="678" fill="#6B7280" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle">{{SECTION_NAME}}</text>
+  <text x="1224" y="678" fill="#6B7280" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end">{{PAGE_NUM}}</text>
+  <rect x="88" y="204" width="250" height="132" fill="#EEF3F8" rx="8" stroke="#DDE5EE" stroke-width="1"/>
+  <rect x="88" y="360" width="250" height="180" fill="#EEF3F8" rx="8" stroke="#DDE5EE" stroke-width="1"/>
+  <rect x="372" y="204" width="382" height="336" fill="none" rx="8" stroke="#DDE5EE" stroke-width="1"/>
+  <rect x="790" y="204" width="380" height="154" fill="#EEF3F8" rx="8" stroke="#DDE5EE" stroke-width="1"/>
+  <rect x="790" y="386" width="380" height="154" fill="#EEF3F8" rx="8" stroke="#DDE5EE" stroke-width="1"/>
+</svg>

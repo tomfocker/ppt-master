@@ -40,9 +40,9 @@ skills/ppt-master/templates/layouts/
 | `示例_高端咨询汽车认证` | 五年规划、认证检测、汽车产业战略 |
 | `示例_麦肯锡客户忠诚` | 客户研究、忠诚度分析、商业策略 |
 
-### 2. 模板库扩展到 36 套
+### 2. 模板库扩展到 42 套
 
-当前模板索引包含品牌风、政企风、通用商务风、学术/医疗/心理等场景模板，以及本 fork 新增的示例衍生模板。
+当前模板索引包含品牌风、政企风、通用商务风、学术/医疗/心理等场景模板，以及本 fork 新增的示例衍生模板和风格库模板。
 
 完整索引：
 
@@ -55,6 +55,8 @@ skills/ppt-master/templates/layouts/
 
 - [风格样片库](./skills/ppt-master/templates/style_samples/README.md)
 - [样片索引](./skills/ppt-master/templates/style_samples/style_samples_index.json)
+
+其中 6 个高频方向已经沉淀为可直接点名使用的 `layouts/` 模板：`premium_finance`、`dark_ai_engineering`、`consulting_executive`、`government_red_modern`、`zen_classics`、`energy_infrastructure`。
 
 ## 使用方式
 

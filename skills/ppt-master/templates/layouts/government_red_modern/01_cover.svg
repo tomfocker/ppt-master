@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FBF7EF"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#9B111E"/>
+  <rect x="0" y="10" width="1280" height="4" fill="#C8A15A"/>
+  <rect x="820" y="96" width="330" height="430" fill="#F3E4D0" rx="12"/>
+  <rect x="860" y="138" width="250" height="80" fill="#FFFFFF" rx="8" stroke="#E4D4BD" stroke-width="1"/>
+  <rect x="860" y="244" width="250" height="80" fill="#FFFFFF" rx="8" stroke="#E4D4BD" stroke-width="1"/>
+  <rect x="860" y="350" width="250" height="80" fill="#FFFFFF" rx="8" stroke="#E4D4BD" stroke-width="1"/>
+  <rect x="88" y="206" width="6" height="188" fill="#C8A15A"/>
+  <text x="120" y="258" fill="#2B1B18" font-family="Arial, sans-serif" font-size="56" font-weight="700">{{TITLE}}</text>
+  <text x="122" y="318" fill="#76665A" font-family="Arial, sans-serif" font-size="24" font-weight="400">{{SUBTITLE}}</text>
+  <text x="122" y="382" fill="#9B111E" font-family="Arial, sans-serif" font-size="16" font-weight="700">{{AUTHOR}}</text>
+  <text x="122" y="642" fill="#76665A" font-family="Arial, sans-serif" font-size="14" font-weight="400">{{DATE}}</text>
+</svg>

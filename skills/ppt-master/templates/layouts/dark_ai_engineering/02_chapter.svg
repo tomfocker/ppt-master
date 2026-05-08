@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#0B1020"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#58A6FF"/>
+  <rect x="0" y="10" width="1280" height="4" fill="#22D3EE"/>
+  <text x="120" y="220" fill="#22D3EE" font-family="Arial, sans-serif" font-size="92" font-weight="700">{{CHAPTER_NUM}}</text>
+  <line x1="120" y1="256" x2="560" y2="256" stroke="#243044" stroke-width="2"/>
+  <text x="120" y="340" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="48" font-weight="700">{{CHAPTER_TITLE}}</text>
+  <text x="124" y="392" fill="#8B9BB4" font-family="Arial, sans-serif" font-size="20" font-weight="400">{{CHAPTER_DESC}}</text>
+  <rect x="760" y="150" width="360" height="360" fill="#111827" rx="16" stroke="#243044" stroke-width="1"/>
+  <line x1="800" y1="220" x2="1080" y2="220" stroke="#243044" stroke-width="2" opacity="0.9"/>
+  <line x1="800" y1="268" x2="1080" y2="268" stroke="#243044" stroke-width="2" opacity="0.9"/>
+  <line x1="800" y1="316" x2="1080" y2="316" stroke="#243044" stroke-width="2" opacity="0.9"/>
+  <line x1="800" y1="364" x2="1080" y2="364" stroke="#243044" stroke-width="2" opacity="0.9"/>
+  <line x1="800" y1="412" x2="1080" y2="412" stroke="#243044" stroke-width="2" opacity="0.9"/>
+</svg>

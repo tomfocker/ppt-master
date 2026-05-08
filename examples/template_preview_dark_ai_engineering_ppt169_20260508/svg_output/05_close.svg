@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0B1020"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#58A6FF"/>
+  <rect x="0" y="8" width="1280" height="3" fill="#22D3EE"/>
+  <g stroke="#243044" stroke-width="1">
+    <line x1="130" y1="156" x2="1150" y2="156" opacity="0.55"/><line x1="130" y1="248" x2="1150" y2="248" opacity="0.55"/><line x1="130" y1="340" x2="1150" y2="340" opacity="0.55"/><line x1="130" y1="432" x2="1150" y2="432" opacity="0.55"/><line x1="130" y1="524" x2="1150" y2="524" opacity="0.55"/>
+  </g>
+  <text x="640" y="214" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="48" font-weight="700">适合工程化深潜的可编辑模板</text>
+  <text x="640" y="266" text-anchor="middle" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="21">系统架构 · AI 安全 · 风险评审 · 开发者分享</text>
+  <line x1="430" y1="310" x2="850" y2="310" stroke="#22D3EE" stroke-width="3"/>
+  <rect x="220" y="370" width="250" height="104" rx="12" fill="#0F172A" stroke="#243044"/>
+  <rect x="515" y="370" width="250" height="104" rx="12" fill="#0F172A" stroke="#243044"/>
+  <rect x="810" y="370" width="250" height="104" rx="12" fill="#0F172A" stroke="#243044"/>
+  <text x="345" y="412" text-anchor="middle" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">可复用</text>
+  <text x="640" y="412" text-anchor="middle" fill="#58A6FF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">可编辑</text>
+  <text x="935" y="412" text-anchor="middle" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">可扩展</text>
+  <text x="345" y="448" text-anchor="middle" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">作为 layouts 模板点名调用</text>
+  <text x="640" y="448" text-anchor="middle" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">最终页面由 SVG 元素构成</text>
+  <text x="935" y="448" text-anchor="middle" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">可继续增加专用图表模块</text>
+  <text x="640" y="596" text-anchor="middle" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">Template ID: dark_ai_engineering</text>
+  <text x="640" y="636" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16">PPT Master Fork</text>
+</svg>

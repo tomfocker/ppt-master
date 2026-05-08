@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0B1020" />
+  <rect x="0" y="0" width="1280" height="7" fill="#58A6FF" />
+  <text x="56" y="58" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700">运行指标：低摩擦不等于无边界</text>
+  <path fill="#58A6FF" d="M62,84 H1218 A6,6 0 0 1 1224,90 V136 A6,6 0 0 1 1218,142 H62 A6,6 0 0 1 56,136 V90 A6,6 0 0 1 62,84 Z" />
+  <rect x="56" y="84" width="7" height="58" fill="#22D3EE" />
+  <text x="78" y="121" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">指标页保持高密度，但用卡片、趋势线和状态色建立清晰扫描路径。</text>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+    <path fill="#0F172A" stroke="#243044" d="M76,176 H308 A12,12 0 0 1 320,188 V296 A12,12 0 0 1 308,308 H76 A12,12 0 0 1 64,296 V188 A12,12 0 0 1 76,176 Z" />
+    <path fill="#0F172A" stroke="#243044" d="M356,176 H588 A12,12 0 0 1 600,188 V296 A12,12 0 0 1 588,308 H356 A12,12 0 0 1 344,296 V188 A12,12 0 0 1 356,176 Z" />
+    <path fill="#0F172A" stroke="#243044" d="M636,176 H868 A12,12 0 0 1 880,188 V296 A12,12 0 0 1 868,308 H636 A12,12 0 0 1 624,296 V188 A12,12 0 0 1 636,176 Z" />
+    <path fill="#0F172A" stroke="#243044" d="M916,176 H1148 A12,12 0 0 1 1160,188 V296 A12,12 0 0 1 1148,308 H916 A12,12 0 0 1 904,296 V188 A12,12 0 0 1 916,176 Z" />
+    <text x="92" y="220" fill="#8B9BB4" font-size="14">误报率</text><text x="92" y="270" fill="#34D399" font-size="42" font-weight="700">0.4%</text>
+    <text x="372" y="220" fill="#8B9BB4" font-size="14">过度主动拦截</text><text x="372" y="270" fill="#F59E0B" font-size="42" font-weight="700">83%</text>
+    <text x="652" y="220" fill="#8B9BB4" font-size="14">平均延迟</text><text x="652" y="270" fill="#22D3EE" font-size="42" font-weight="700">低</text>
+    <text x="932" y="220" fill="#8B9BB4" font-size="14">权限层级</text><text x="932" y="270" fill="#58A6FF" font-size="42" font-weight="700">3</text>
+  </g>
+  <path fill="#0F172A" stroke="#243044" d="M76,344 H592 A12,12 0 0 1 604,356 V558 A12,12 0 0 1 592,570 H76 A12,12 0 0 1 64,558 V356 A12,12 0 0 1 76,344 Z" />
+  <text x="96" y="392" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">风险动作趋势</text>
+  <g stroke="#243044" stroke-width="1"><line x1="100" y1="528" x2="560" y2="528" /><line x1="100" y1="472" x2="560" y2="472" /><line x1="100" y1="416" x2="560" y2="416" /></g>
+  <polyline points="110,512 180,486 250,498 320,446 390,456 460,408 540,384" fill="none" stroke="#22D3EE" stroke-width="4" />
+  <polyline points="110,450 180,438 250,430 320,418 390,404 460,398 540,386" fill="none" stroke="#58A6FF" stroke-width="3" opacity="0.7" />
+  <g fill="#22D3EE"><circle cx="110" cy="512" r="5" /><circle cx="180" cy="486" r="5" /><circle cx="250" cy="498" r="5" /><circle cx="320" cy="446" r="5" /><circle cx="390" cy="456" r="5" /><circle cx="460" cy="408" r="5" /><circle cx="540" cy="384" r="5" /></g>
+  <path fill="#0F172A" stroke="#243044" d="M656,344 H1148 A12,12 0 0 1 1160,356 V558 A12,12 0 0 1 1148,570 H656 A12,12 0 0 1 644,558 V356 A12,12 0 0 1 656,344 Z" />
+  <text x="676" y="392" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">权限分层状态</text>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">
+    <path fill="#111827" d="M685,424 H1095 A5,5 0 0 1 1100,429 V447 A5,5 0 0 1 1095,452 H685 A5,5 0 0 1 680,447 V429 A5,5 0 0 1 685,424 Z" /><path fill="#34D399" d="M685,424 H1055 A5,5 0 0 1 1060,429 V447 A5,5 0 0 1 1055,452 H685 A5,5 0 0 1 680,447 V429 A5,5 0 0 1 685,424 Z" /><text x="1118" y="444" fill="#8B9BB4">安全读取</text>
+    <path fill="#111827" d="M685,474 H1095 A5,5 0 0 1 1100,479 V497 A5,5 0 0 1 1095,502 H685 A5,5 0 0 1 680,497 V479 A5,5 0 0 1 685,474 Z" /><path fill="#58A6FF" d="M685,474 H967 A5,5 0 0 1 972,479 V497 A5,5 0 0 1 967,502 H685 A5,5 0 0 1 680,497 V479 A5,5 0 0 1 685,474 Z" /><text x="1118" y="494" fill="#8B9BB4">项目内编辑</text>
+    <path fill="#111827" d="M685,524 H1095 A5,5 0 0 1 1100,529 V547 A5,5 0 0 1 1095,552 H685 A5,5 0 0 1 680,547 V529 A5,5 0 0 1 685,524 Z" /><path fill="#F59E0B" d="M685,524 H797 A5,5 0 0 1 802,529 V547 A5,5 0 0 1 797,552 H685 A5,5 0 0 1 680,547 V529 A5,5 0 0 1 685,524 Z" /><text x="1118" y="544" fill="#8B9BB4">外部动作</text>
+  </g>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#243044" />
+  <text x="56" y="678" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10">Source: template preview sample</text>
+  <text x="1224" y="678" text-anchor="end" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12">04</text>
+</svg>

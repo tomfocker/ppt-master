@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0B1020"/>
+  <rect x="0" y="0" width="1280" height="7" fill="#58A6FF"/>
+  <text x="56" y="58" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700">运行指标：低摩擦不等于无边界</text>
+  <rect x="56" y="84" width="1168" height="58" fill="#58A6FF" rx="6"/>
+  <rect x="56" y="84" width="7" height="58" fill="#22D3EE"/>
+  <text x="78" y="121" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">指标页保持高密度，但用卡片、趋势线和状态色建立清晰扫描路径。</text>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+    <rect x="64" y="176" width="256" height="132" rx="12" fill="#0F172A" stroke="#243044"/>
+    <rect x="344" y="176" width="256" height="132" rx="12" fill="#0F172A" stroke="#243044"/>
+    <rect x="624" y="176" width="256" height="132" rx="12" fill="#0F172A" stroke="#243044"/>
+    <rect x="904" y="176" width="256" height="132" rx="12" fill="#0F172A" stroke="#243044"/>
+    <text x="92" y="220" fill="#8B9BB4" font-size="14">误报率</text><text x="92" y="270" fill="#34D399" font-size="42" font-weight="700">0.4%</text>
+    <text x="372" y="220" fill="#8B9BB4" font-size="14">过度主动拦截</text><text x="372" y="270" fill="#F59E0B" font-size="42" font-weight="700">83%</text>
+    <text x="652" y="220" fill="#8B9BB4" font-size="14">平均延迟</text><text x="652" y="270" fill="#22D3EE" font-size="42" font-weight="700">低</text>
+    <text x="932" y="220" fill="#8B9BB4" font-size="14">权限层级</text><text x="932" y="270" fill="#58A6FF" font-size="42" font-weight="700">3</text>
+  </g>
+  <rect x="64" y="344" width="540" height="226" rx="12" fill="#0F172A" stroke="#243044"/>
+  <text x="96" y="392" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">风险动作趋势</text>
+  <g stroke="#243044" stroke-width="1"><line x1="100" y1="528" x2="560" y2="528"/><line x1="100" y1="472" x2="560" y2="472"/><line x1="100" y1="416" x2="560" y2="416"/></g>
+  <polyline points="110,512 180,486 250,498 320,446 390,456 460,408 540,384" fill="none" stroke="#22D3EE" stroke-width="4"/>
+  <polyline points="110,450 180,438 250,430 320,418 390,404 460,398 540,386" fill="none" stroke="#58A6FF" stroke-width="3" opacity="0.7"/>
+  <g fill="#22D3EE"><circle cx="110" cy="512" r="5"/><circle cx="180" cy="486" r="5"/><circle cx="250" cy="498" r="5"/><circle cx="320" cy="446" r="5"/><circle cx="390" cy="456" r="5"/><circle cx="460" cy="408" r="5"/><circle cx="540" cy="384" r="5"/></g>
+  <rect x="644" y="344" width="516" height="226" rx="12" fill="#0F172A" stroke="#243044"/>
+  <text x="676" y="392" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700">权限分层状态</text>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">
+    <rect x="680" y="424" width="420" height="28" fill="#111827" rx="5"/><rect x="680" y="424" width="380" height="28" fill="#34D399" rx="5"/><text x="1118" y="444" fill="#8B9BB4">安全读取</text>
+    <rect x="680" y="474" width="420" height="28" fill="#111827" rx="5"/><rect x="680" y="474" width="292" height="28" fill="#58A6FF" rx="5"/><text x="1118" y="494" fill="#8B9BB4">项目内编辑</text>
+    <rect x="680" y="524" width="420" height="28" fill="#111827" rx="5"/><rect x="680" y="524" width="122" height="28" fill="#F59E0B" rx="5"/><text x="1118" y="544" fill="#8B9BB4">外部动作</text>
+  </g>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#243044"/>
+  <text x="56" y="678" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10">Source: template preview sample</text>
+  <text x="1224" y="678" text-anchor="end" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12">04</text>
+</svg>

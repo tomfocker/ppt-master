@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0B1020" />
+  <rect x="0" y="0" width="1280" height="7" fill="#58A6FF" />
+  <text x="56" y="58" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700">风险矩阵：把“能做”和“该做”分开</text>
+  <path fill="#58A6FF" d="M62,84 H1218 A6,6 0 0 1 1224,90 V136 A6,6 0 0 1 1218,142 H62 A6,6 0 0 1 56,136 V90 A6,6 0 0 1 62,84 Z" />
+  <rect x="56" y="84" width="7" height="58" fill="#22D3EE" />
+  <text x="78" y="121" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">暗色模板适合承载风险分层、动作审计和工程判断。</text>
+  <path fill="#0F172A" stroke="#243044" d="M88,178 H714 A12,12 0 0 1 726,190 V586 A12,12 0 0 1 714,598 H88 A12,12 0 0 1 76,586 V190 A12,12 0 0 1 88,178 Z" />
+  <line x1="401" y1="218" x2="401" y2="558" stroke="#243044" stroke-width="2" />
+  <line x1="116" y1="388" x2="686" y2="388" stroke="#243044" stroke-width="2" />
+  <text x="168" y="226" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">低影响</text>
+  <text x="572" y="226" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14">高影响</text>
+  <text x="94" y="336" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14" transform="rotate(-90 94 336)">低不确定性</text>
+  <text x="94" y="534" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14" transform="rotate(-90 94 534)">高不确定性</text>
+  <path fill="#111827" stroke="#34D399" d="M142,248 H354 A10,10 0 0 1 364,258 V342 A10,10 0 0 1 354,352 H142 A10,10 0 0 1 132,342 V258 A10,10 0 0 1 142,248 Z" />
+  <path fill="#111827" stroke="#F59E0B" d="M448,248 H660 A10,10 0 0 1 670,258 V342 A10,10 0 0 1 660,352 H448 A10,10 0 0 1 438,342 V258 A10,10 0 0 1 448,248 Z" />
+  <path fill="#111827" stroke="#58A6FF" d="M142,428 H354 A10,10 0 0 1 364,438 V522 A10,10 0 0 1 354,532 H142 A10,10 0 0 1 132,522 V438 A10,10 0 0 1 142,428 Z" />
+  <path fill="#111827" stroke="#F97373" d="M448,428 H660 A10,10 0 0 1 670,438 V522 A10,10 0 0 1 660,532 H448 A10,10 0 0 1 438,522 V438 A10,10 0 0 1 448,428 Z" />
+  <text x="156" y="288" fill="#34D399" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">允许执行</text>
+  <text x="462" y="288" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">请求确认</text>
+  <text x="156" y="468" fill="#58A6FF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">记录审计</text>
+  <text x="462" y="468" fill="#F97373" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">阻断动作</text>
+  <g fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">
+    <text x="156" y="320">读取、搜索、项目内编辑</text>
+    <text x="462" y="320">外部写入、网络访问</text>
+    <text x="156" y="500">边界模糊但可恢复</text>
+    <text x="462" y="500">凭据、生产、远端破坏</text>
+  </g>
+  <path fill="#0F172A" stroke="#243044" d="M792,178 H1192 A12,12 0 0 1 1204,190 V586 A12,12 0 0 1 1192,598 H792 A12,12 0 0 1 780,586 V190 A12,12 0 0 1 792,178 Z" />
+  <text x="816" y="230" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">四类重点风险</text>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+    <circle cx="830" cy="282" r="8" fill="#F97373" /><text x="852" y="288" fill="#FFFFFF" font-size="16" font-weight="700">过度主动</text><text x="852" y="314" fill="#8B9BB4" font-size="13">未获授权却扩大执行范围</text>
+    <circle cx="830" cy="362" r="8" fill="#F59E0B" /><text x="852" y="368" fill="#FFFFFF" font-size="16" font-weight="700">诚实误判</text><text x="852" y="394" fill="#8B9BB4" font-size="13">低估命令影响半径</text>
+    <circle cx="830" cy="442" r="8" fill="#22D3EE" /><text x="852" y="448" fill="#FFFFFF" font-size="16" font-weight="700">提示注入</text><text x="852" y="474" fill="#8B9BB4" font-size="13">文件或网页中嵌入恶意指令</text>
+    <circle cx="830" cy="522" r="8" fill="#58A6FF" /><text x="852" y="528" fill="#FFFFFF" font-size="16" font-weight="700">目标偏移</text><text x="852" y="554" fill="#8B9BB4" font-size="13">动作和用户目标不一致</text>
+  </g>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#243044" />
+  <text x="56" y="678" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10">Source: template preview sample</text>
+  <text x="1224" y="678" text-anchor="end" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12">03</text>
+</svg>

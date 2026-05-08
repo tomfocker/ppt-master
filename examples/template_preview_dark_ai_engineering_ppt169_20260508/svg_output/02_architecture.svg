@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0B1020"/>
+  <rect x="0" y="0" width="1280" height="7" fill="#58A6FF"/>
+  <text x="56" y="58" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700">架构总览：三层安全控制链路</text>
+  <rect x="56" y="84" width="1168" height="58" fill="#58A6FF" rx="6"/>
+  <rect x="56" y="84" width="7" height="58" fill="#22D3EE"/>
+  <text x="78" y="121" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">输入进入上下文前先探测注入，动作执行前再由分类器判定风险。</text>
+  <rect x="64" y="176" width="260" height="350" rx="12" fill="#0F172A" stroke="#243044"/>
+  <rect x="374" y="176" width="260" height="350" rx="12" fill="#0F172A" stroke="#243044"/>
+  <rect x="684" y="176" width="260" height="350" rx="12" fill="#0F172A" stroke="#243044"/>
+  <rect x="994" y="176" width="220" height="350" rx="12" fill="#111827" stroke="#243044"/>
+  <text x="94" y="224" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">01 输入探针</text>
+  <text x="404" y="224" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">02 权限分层</text>
+  <text x="714" y="224" fill="#22D3EE" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">03 输出分类器</text>
+  <text x="1024" y="224" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="700">执行策略</text>
+  <g fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">
+    <text x="94" y="272">扫描文件、网页、命令输出</text>
+    <text x="94" y="318">识别提示注入和越权意图</text>
+    <text x="94" y="364">高风险内容附加警告标记</text>
+    <text x="404" y="272">安全读取直接放行</text>
+    <text x="404" y="318">项目内修改依赖版本控制</text>
+    <text x="404" y="364">外部命令进入风险判定</text>
+    <text x="714" y="272">快速单 token 过滤</text>
+    <text x="714" y="318">必要时触发深度推理</text>
+    <text x="714" y="364">按用户意图判断动作边界</text>
+    <text x="1024" y="272">允许</text>
+    <text x="1024" y="318">请求确认</text>
+    <text x="1024" y="364">阻断动作</text>
+  </g>
+  <g stroke="#22D3EE" stroke-width="3" fill="none">
+    <path d="M324 350 L374 350"/>
+    <path d="M944 350 L994 350"/>
+  </g>
+  <g stroke="#58A6FF" stroke-width="3" fill="none">
+    <path d="M634 350 L684 350"/>
+  </g>
+  <g fill="#243044">
+    <circle cx="348" cy="350" r="5"/><circle cx="658" cy="350" r="5"/><circle cx="968" cy="350" r="5"/>
+  </g>
+  <rect x="94" y="430" width="190" height="48" rx="8" fill="#111827" stroke="#243044"/>
+  <rect x="404" y="430" width="190" height="48" rx="8" fill="#111827" stroke="#243044"/>
+  <rect x="714" y="430" width="190" height="48" rx="8" fill="#111827" stroke="#243044"/>
+  <text x="189" y="461" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">Context Gate</text>
+  <text x="499" y="461" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">Permission Tier</text>
+  <text x="809" y="461" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">Action Judge</text>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#243044"/>
+  <text x="56" y="678" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10">Source: template preview sample</text>
+  <text x="1224" y="678" text-anchor="end" fill="#8B9BB4" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12">02</text>
+</svg>

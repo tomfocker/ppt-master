@@ -1,16 +1,30 @@
 # PPT Master Fork
 
-本仓库是 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 的 fork，保留原版“把 PDF / DOCX / URL / Markdown 生成原生可编辑 PPTX”的完整工作流，并在此基础上补充更适合复用的模板资产。
+本仓库是 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 的 fork，保留原版“把 PDF / DOCX / URL / Markdown 生成原生可编辑 PPTX”的完整工作流，并在此基础上补充更适合中文使用和长期复用的模板资产。
 
-> 原版项目由 Hugo He 创建并维护，采用 MIT License。本 fork 主要用于模板扩展和二次实践。
+> 原版项目由 Hugo He 创建并维护，采用 MIT License。本 fork 主要用于模板扩展、中文化索引和混合视觉模板实践。
 
 中文 | [English](./README_EN.md)
 
 ---
 
+## 当前同步状态
+
+本 fork 已同步到上游 `upstream/main` 的 v2.6.0 时代能力，并保留我们自己的中文模板库扩展。
+
+上游新增能力主要包括：
+
+- PPTX 模板导入与复刻：可从现有 `.pptx` 提取 master、layout、assets 和可复用模板结构。
+- 更强的 PPTX / SVG 往返保真：图片裁剪、主题背景、表格、占位符、嵌套 SVG、图片 transform 等能力增强。
+- 新工作流：`topic-research`、`resume-execute`、`verify-charts`、`visual-edit`、`generate-audio`。
+- 动画、转场、旁白、音频与视频导出相关文档与脚本增强。
+- 示例库、在线预览索引和图标库扩展。
+
+---
+
 ## 相对原版的升级
 
-### 1. 新增示例衍生模板
+### 1. 中文优先的可复用模板库
 
 本 fork 把一批高质量 `examples/` 项目抽象成可复用模板，放入：
 
@@ -42,14 +56,14 @@ skills/ppt-master/templates/layouts/
 
 ### 2. 模板库扩展到 46 套
 
-当前模板索引包含品牌风、政企风、通用商务风、学术/医疗/心理等场景模板，以及本 fork 新增的示例衍生模板和风格库模板。
+当前模板索引包含上游品牌风、政企风、通用商务风、学术/医疗/心理等场景模板，以及本 fork 新增的示例衍生模板和风格库模板。
 
 完整索引：
 
 - [模板说明](./skills/ppt-master/templates/layouts/README.md)
 - [机器可读索引](./skills/ppt-master/templates/layouts/layouts_index.json)
 
-### 3. 新增风格样片库
+### 3. 风格样片库与混合模板
 
 本 fork 增加了一组 16:9 风格参考图，用于新模板设计、风格选择和视觉对齐。样片不是最终 PPT 页面，使用时应重建为可编辑 SVG / DrawingML 元素。
 
@@ -59,6 +73,8 @@ skills/ppt-master/templates/layouts/
 其中 10 个高频方向已经沉淀为可直接点名使用的 `layouts/` 模板：`风格_高端金融`、`风格_高端金融混合`、`风格_暗色AI工程`、`风格_暗色AI工程混合`、`风格_高端咨询`、`风格_高端咨询混合`、`风格_现代政企红`、`风格_现代政企红混合`、`风格_禅意经典`、`风格_能源基建`。
 
 带“混合”的模板使用原生生图素材提供更强视觉质感，标题、卡片、指标、图表等信息层仍保持 SVG / DrawingML 可编辑。
+
+---
 
 ## 使用方式
 
@@ -84,7 +100,7 @@ projects/my-report/sources/report.pdf
 
 ### 3. 在 AI Agent 里发起任务
 
-原版已经提供 [AGENTS.md](./AGENTS.md) 作为通用 AI Agent 入口。使用本 fork 时，仍建议让 Agent 先读取 `AGENTS.md` 和 `skills/ppt-master/SKILL.md`，再开始生成。
+使用本 fork 时，建议让 Agent 先读取 `AGENTS.md` 和 `skills/ppt-master/SKILL.md`，再开始生成。
 
 普通自由设计：
 
@@ -97,14 +113,14 @@ projects/my-report/sources/report.pdf
 
 ```text
 请读取 AGENTS.md 和 skills/ppt-master/SKILL.md，
-用「示例_麦肯锡客户忠诚」模板，
-根据 projects/customer-research/sources/report.pdf 生成一份 16:9 PPT。
+用「风格_暗色AI工程混合」模板，
+根据 projects/ai-review/sources/report.pdf 生成一份 16:9 PPT。
 ```
 
-指定其他模板：
+指定示例衍生模板：
 
 ```text
-请使用 mckinsey 模板生成咨询风 PPT。
+请使用「示例_麦肯锡客户忠诚」模板生成咨询风 PPT。
 ```
 
 > 模板是 opt-in 的：只有你明确点名模板时，工作流才会使用模板；否则默认自由设计。
@@ -186,6 +202,8 @@ git merge upstream/main
 | [AGENTS.md](./AGENTS.md) | 通用 AI Agent 入口说明 |
 | [SKILL.md](./skills/ppt-master/SKILL.md) | PPT Master 完整工作流 |
 | [模板库 README](./skills/ppt-master/templates/layouts/README.md) | 当前模板清单与模板结构 |
+| [模板导入指南](./docs/zh/templates-guide.md) | 上游 v2.6 的 PPTX 模板复刻说明 |
+| [音频旁白指南](./docs/zh/audio-narration.md) | 旁白、音频与视频导出 |
 | [脚本说明](./skills/ppt-master/scripts/README.md) | 转换、项目管理、导出等工具 |
 | [FAQ](./docs/zh/faq.md) | 常见问题 |
 

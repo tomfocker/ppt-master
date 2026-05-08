@@ -1,232 +1,609 @@
 {
   "academic_defense": {
-    "label": "Academic Defense Template",
-    "summary": "A standard template for academic defenses, research presentations, and project proposals",
-    "keywords": ["Academic", "Defense", "Research", "Standard"]
+    "label": "academic_defense",
+    "summary": "For Thesis defense, academic presentations, research progress reports, grant applications.",
+    "keywords": [
+      "Professional",
+      "rigorous",
+      "research-oriented",
+      "clear hierarchy"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "ai_ops": {
-    "label": "Enterprise Digital Intelligence Template",
-    "summary": "For high-density scenarios such as telecom AI operations architecture, IT system overview, and digital transformation plans",
-    "keywords": ["Telecom", "AI operations", "Digital intelligence", "High density", "Architecture view"]
+    "label": "Enterprise Digital Intelligence",
+    "summary": "For Telecom AI operations architecture, IT system overviews, digital transformation proposals, smart infrastructure reports.",
+    "keywords": [
+      "Information-dense",
+      "structured",
+      "modular zoning",
+      "telecom",
+      "enterprise style"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending",
+      "reference_style"
+    ]
   },
   "anthropic": {
     "label": "Anthropic Style Template",
-    "summary": "A tech-oriented template for AI/LLM knowledge sharing and product launches",
-    "keywords": ["AI", "LLM", "Developer", "Technology"]
+    "summary": "For AI tech talks, developer conferences, technical training, product launches.",
+    "keywords": [
+      "Tech-forward",
+      "professional",
+      "modern",
+      "conclusion-first"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "china_telecom_template": {
     "label": "中国电信模板",
-    "summary": "A China Telecom style template for telecom solution proposals, digital transformation plans, and government-enterprise briefings",
-    "keywords": ["China Telecom", "Telecom", "Digital transformation", "Government-enterprise", "Briefing"]
+    "summary": "For China Telecom related briefings, 政企数字化方案, 转型规划, 内部汇报.",
+    "keywords": [
+      "Authoritative",
+      "structured",
+      "restrained",
+      "enterprise-government hybrid"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "exhibit": {
     "label": "Exhibit Style Template",
-    "summary": "Conclusion-first layout with Exhibit takeaway bars for data-driven strategic reports and executive presentations",
-    "keywords": ["Exhibit", "Board", "Executive", "Strategy", "Conclusion-first"]
+    "summary": "For Strategic planning, executive reports, investment analysis, board presentations.",
+    "keywords": [
+      "Premium",
+      "refined",
+      "authoritative",
+      "data-driven",
+      "conclusion-first"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "google_style": {
     "label": "Google Style Template",
-    "summary": "A Google-branded template for annual reports and technical sharing",
-    "keywords": ["Google", "Brand style", "Technical sharing", "Annual report"]
+    "summary": "For Annual work reports, technical sharing, project showcases, data-driven presentations.",
+    "keywords": [
+      "Professional",
+      "modern",
+      "clean and restrained",
+      "data-driven",
+      "generous whitespace"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "government_blue": {
     "label": "Government Blue Template",
-    "summary": "A blue government-themed template for smart governance and digital transformation reports",
-    "keywords": ["Government affairs", "Government blue", "Smart city", "Digitalization"]
+    "summary": "For Key project briefings, Five-Year Plan presentations, work summaries, investment promotion, policy interpretation.",
+    "keywords": [
+      "Grand",
+      "tech-forward",
+      "modern",
+      "professional government style"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "government_red": {
     "label": "Government Red Template",
-    "summary": "A red government-themed template for government reports and party-building scenarios",
-    "keywords": ["Government affairs", "Party building", "Government red", "Authoritative"]
+    "summary": "For Government briefings, policy interpretation, work summaries, project introductions, investment promotion.",
+    "keywords": [
+      "Authoritative",
+      "dignified",
+      "professional",
+      "modern government style"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "mckinsey": {
     "label": "McKinsey Style Template",
-    "summary": "A McKinsey-style template for strategic consulting and investment analysis",
-    "keywords": ["McKinsey", "Consulting", "Structured", "Executive presentation"]
+    "summary": "For Strategic consulting, executive briefings, investment analysis, business proposals.",
+    "keywords": [
+      "Data-driven",
+      "structured thinking",
+      "professional whitespace",
+      "minimalist premium"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "medical_university": {
-    "label": "Hospital/Medical University Template",
-    "summary": "A professional template for medical reports, case discussions, and research presentations",
-    "keywords": ["Medical", "Hospital", "Case study", "Research"]
+    "label": "Hospital / Medical University Template",
+    "summary": "For Medical academic reports, case discussions, research presentations, hospital work reports, medical education and training.",
+    "keywords": [
+      "Professional",
+      "rigorous",
+      "life-affirming",
+      "tech-forward",
+      "trustworthy"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "pixel_retro": {
     "label": "Pixel Retro Template",
-    "summary": "A pixel-art template for tech sharing and gaming-themed content",
-    "keywords": ["Pixel art", "Retro gaming", "Cyberpunk", "Technology"]
+    "summary": "For Tech talks, programming tutorials, game introductions, geek-style showcases.",
+    "keywords": [
+      "Retro gaming",
+      "neon cyberpunk",
+      "geek tech",
+      "8-bit style"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "psychology_attachment": {
     "label": "Psychology Healing Template",
-    "summary": "A warm and professional template for psychotherapy training and counseling lectures",
-    "keywords": ["Psychology", "Healing", "Counseling", "Warm"]
+    "summary": "For Psychotherapy training, academic lectures, counseling case analysis, professional sharing.",
+    "keywords": [
+      "Professional",
+      "warm",
+      "healing",
+      "trustworthy"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "smart_red": {
-    "label": "Smart Red-Orange Business Template",
-    "summary": "A vibrant business template for tech company introductions and education solutions",
-    "keywords": ["Red-orange business", "Tech enterprise", "Education", "Vibrant"]
+    "label": "Smart Red-Orange Business Style",
+    "summary": "For Company introductions, product launches, solution presentations, education industry courseware.",
+    "keywords": [
+      "Modern",
+      "energetic",
+      "professional",
+      "geometric"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "中国电建_常规": {
-    "label": "PowerChina Standard Template",
-    "summary": "A solid brand template for engineering construction and state-owned enterprise reports",
-    "keywords": ["PowerChina", "State-owned enterprise", "Engineering", "Energy"]
+    "label": "formerly powerchina",
+    "summary": "For Engineering project reports, technical proposal presentations, business negotiations, corporate promotion, annual summaries.",
+    "keywords": [
+      "Professional",
+      "composed",
+      "international",
+      "state-owned enterprise style"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "中国电建_现代": {
-    "label": "PowerChina Modern Template",
-    "summary": "A modern engineering template for major projects and international business presentations",
-    "keywords": ["PowerChina", "International engineering", "Modern engineering", "Technology"]
+    "label": "formerly powerchina_v2",
+    "summary": "For Major engineering reports, international market promotion, technology achievement showcases, high-end business negotiations.",
+    "keywords": [
+      "Grand narrative",
+      "modern precision",
+      "digital tech",
+      "international vision"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "中汽研_商务": {
-    "label": "CATARC Business Template",
-    "summary": "A CATARC brand template for certification showcase and high-end business presentations",
-    "keywords": ["CATARC", "Certification", "Business", "Technology"]
+    "label": "formerly zhongqiyan_v2",
+    "summary": "For Product certification display, evaluation presentations, technology promotion, high-end business reporting.",
+    "keywords": [
+      "Modern tech",
+      "authoritative & professional",
+      "composed & grand"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "中汽研_常规": {
-    "label": "CATARC Standard Template",
-    "summary": "A standard CATARC template for certification and testing scenarios",
-    "keywords": ["CATARC", "Certification", "Testing", "Authoritative"]
+    "label": "formerly zhongqiyan",
+    "summary": "For Product certification display, evaluation presentations, technology promotion, business visits.",
+    "keywords": [
+      "Professional",
+      "authoritative",
+      "trustworthy",
+      "consulting style"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "中汽研_现代": {
-    "label": "CATARC Modern Template",
-    "summary": "A futuristic tech template for cutting-edge technology showcase and premium launches",
-    "keywords": ["CATARC", "Future tech", "Cutting-edge technology", "Launch event"]
+    "label": "CATARC_Modern_Tech",
+    "summary": "For Forward-looking technology showcases, strategic releases, high-end business reporting.",
+    "keywords": [
+      "Futuristic",
+      "tech-forward",
+      "deep & refined"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "招商银行": {
-    "label": "China Merchants Bank Transaction Banking Template",
-    "summary": "A transaction-banking template for sales collection solutions, product pitches, and branch training",
-    "keywords": ["China Merchants Bank", "Transaction banking", "Sales collection", "Finance", "Training"]
+    "label": "招商银行",
+    "summary": "For 交易银行产品介绍、销售收款方案汇报、客户案例拆解、分行培训材料.",
+    "keywords": [
+      "Brand-consistent",
+      "structured",
+      "product-focused",
+      "refined finance"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "科技蓝商务": {
-    "label": "Tech Blue Business Template",
-    "summary": "A tech-business template for corporate reports and solution proposals",
-    "keywords": ["Tech blue", "Business", "Solution proposal", "Corporate report"]
+    "label": "科技蓝商务 / tech_blue_business",
+    "summary": "For Corporate reports, product launches, proposals, process standards, training materials.",
+    "keywords": [
+      "Tech",
+      "business",
+      "professional",
+      "clean"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "重庆大学": {
-    "label": "Chongqing University Template",
-    "summary": "A university-exclusive template for academic defenses and research presentations",
-    "keywords": ["Chongqing University", "Academic", "Defense", "University"]
+    "label": "重庆大学",
+    "summary": "For Academic defense, research reports, teaching presentations, scholarly exchange.",
+    "keywords": [
+      "Academically grounded · Mountain City charm · Modern minimalism"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
   },
   "示例_项目介绍": {
     "label": "项目介绍示例模板",
     "summary": "从 PPT Master 项目介绍案例抽象出的通用产品/项目介绍模板。",
-    "keywords": ["项目介绍", "产品路演", "工具说明", "通用"]
+    "keywords": [
+      "项目介绍",
+      "产品路演",
+      "工具说明",
+      "通用"
+    ]
   },
   "示例_暗色科技自动模式": {
     "label": "暗色科技自动模式示例模板",
     "summary": "从 Claude Code Auto Mode 案例抽象出的暗色 AI 安全/工程深潜模板。",
-    "keywords": ["暗色科技", "AI安全", "工程架构", "研发分享"]
+    "keywords": [
+      "暗色科技",
+      "AI安全",
+      "工程架构",
+      "研发分享"
+    ]
   },
   "示例_像素风Git入门": {
     "label": "像素风 Git 入门示例模板",
     "summary": "从 Git 入门像素风案例抽象出的复古技术教学模板。",
-    "keywords": ["像素风", "Git", "技术教学", "复古"]
+    "keywords": [
+      "像素风",
+      "Git",
+      "技术教学",
+      "复古"
+    ]
   },
   "示例_易理风谦卦": {
     "label": "易理风谦卦示例模板",
     "summary": "从地山谦卦研究案例抽象出的东方哲思与传统文化研究模板。",
-    "keywords": ["易理", "传统文化", "国学", "哲思"]
+    "keywords": [
+      "易理",
+      "传统文化",
+      "国学",
+      "哲思"
+    ]
   },
   "示例_禅意风金刚经": {
     "label": "禅意风金刚经示例模板",
     "summary": "从金刚经研究案例抽象出的禅意留白与经典研读模板。",
-    "keywords": ["禅意", "金刚经", "经典研读", "留白"]
+    "keywords": [
+      "禅意",
+      "金刚经",
+      "经典研读",
+      "留白"
+    ]
   },
   "示例_谷歌风年度报告": {
     "label": "谷歌风年度报告示例模板",
     "summary": "从 Google 年度报告案例抽象出的轻量品牌色年度总结模板。",
-    "keywords": ["谷歌风", "年度报告", "技术汇报", "四色"]
+    "keywords": [
+      "谷歌风",
+      "年度报告",
+      "技术汇报",
+      "四色"
+    ]
   },
   "示例_暗色代码调试": {
     "label": "暗色代码调试示例模板",
     "summary": "从 Debug 六步法案例抽象出的代码培训与方法论模板。",
-    "keywords": ["暗色代码", "调试", "方法论", "开发者培训"]
+    "keywords": [
+      "暗色代码",
+      "调试",
+      "方法论",
+      "开发者培训"
+    ]
   },
   "示例_技术对比AI编程工具": {
     "label": "技术对比 AI 编程工具示例模板",
     "summary": "从三大 AI 编程工具横向对比案例抽象出的技术评测模板。",
-    "keywords": ["技术对比", "AI编程", "工具评测", "选型"]
+    "keywords": [
+      "技术对比",
+      "AI编程",
+      "工具评测",
+      "选型"
+    ]
   },
   "示例_咨询风依恋心理": {
     "label": "咨询风依恋心理示例模板",
     "summary": "从心理治疗中的依恋案例抽象出的咨询式心理学课程模板。",
-    "keywords": ["咨询风", "心理学", "依恋", "课程培训"]
+    "keywords": [
+      "咨询风",
+      "心理学",
+      "依恋",
+      "课程培训"
+    ]
   },
   "示例_咨询风AI代理": {
     "label": "咨询风 AI 代理示例模板",
     "summary": "从构建有效 AI 代理案例抽象出的 AI 架构与技术策略模板。",
-    "keywords": ["AI代理", "Anthropic风", "咨询风", "技术架构"]
+    "keywords": [
+      "AI代理",
+      "Anthropic风",
+      "咨询风",
+      "技术架构"
+    ]
   },
   "示例_咨询风甘孜财政": {
     "label": "咨询风甘孜财政示例模板",
     "summary": "从甘孜州经济财政分析案例抽象出的政府财政与区域分析模板。",
-    "keywords": ["财政分析", "区域经济", "政府汇报", "咨询风"]
+    "keywords": [
+      "财政分析",
+      "区域经济",
+      "政府汇报",
+      "咨询风"
+    ]
   },
   "示例_咨询风重庆区域": {
     "label": "咨询风重庆区域示例模板",
     "summary": "从重庆市区域报告案例抽象出的区域金融研究与风险分析模板。",
-    "keywords": ["重庆区域", "金融研究", "财政分析", "风险研判"]
+    "keywords": [
+      "重庆区域",
+      "金融研究",
+      "财政分析",
+      "风险研判"
+    ]
   },
   "示例_高端咨询南欧江": {
     "label": "高端咨询南欧江示例模板",
     "summary": "从南欧江水电站战略评估案例抽象出的重大工程战略评估模板。",
-    "keywords": ["高端咨询", "水电站", "能源工程", "战略评估"]
+    "keywords": [
+      "高端咨询",
+      "水电站",
+      "能源工程",
+      "战略评估"
+    ]
   },
   "示例_高端咨询汽车认证": {
     "label": "高端咨询汽车认证示例模板",
     "summary": "从汽车认证五年战略规划案例抽象出的认证机构战略规划模板。",
-    "keywords": ["汽车认证", "五年规划", "战略咨询", "绿色低碳"]
+    "keywords": [
+      "汽车认证",
+      "五年规划",
+      "战略咨询",
+      "绿色低碳"
+    ]
   },
   "示例_麦肯锡客户忠诚": {
     "label": "麦肯锡客户忠诚示例模板",
     "summary": "从客户忠诚度分析案例抽象出的经典麦肯锡式咨询模板。",
-    "keywords": ["麦肯锡风", "客户忠诚", "商业策略", "咨询"]
+    "keywords": [
+      "麦肯锡风",
+      "客户忠诚",
+      "商业策略",
+      "咨询"
+    ]
   },
   "风格_高端金融": {
     "label": "高端金融风格模板",
     "summary": "Premium banking and finance template for wealth management, transaction banking, and executive finance reports.",
-    "keywords": ["Finance", "Banking", "Premium", "Executive report"]
+    "keywords": [
+      "Finance",
+      "Banking",
+      "Premium",
+      "Executive report"
+    ]
   },
   "风格_暗色AI工程": {
     "label": "暗色 AI 工程风格模板",
     "summary": "Dark technical template for AI safety, architecture reviews, system design, and developer presentations.",
-    "keywords": ["AI", "Engineering", "Architecture", "Dark tech"]
+    "keywords": [
+      "AI",
+      "Engineering",
+      "Architecture",
+      "Dark tech"
+    ]
   },
   "风格_高端咨询": {
     "label": "高端咨询风格模板",
     "summary": "High-end executive consulting template for board reports, strategy decks, and investment analysis.",
-    "keywords": ["Consulting", "Executive", "Strategy", "Board report"]
+    "keywords": [
+      "Consulting",
+      "Executive",
+      "Strategy",
+      "Board report"
+    ]
   },
   "风格_现代政企红": {
     "label": "现代政企红风格模板",
     "summary": "Modern formal red template for government reports, SOE briefings, and policy-oriented presentations.",
-    "keywords": ["Government", "SOE", "Formal report", "Red"]
+    "keywords": [
+      "Government",
+      "SOE",
+      "Formal report",
+      "Red"
+    ]
   },
   "风格_禅意经典": {
     "label": "禅意经典风格模板",
     "summary": "Ink-wash and paper-texture inspired template for classical text study, philosophy, and traditional culture lectures.",
-    "keywords": ["Zen", "Classics", "Traditional culture", "Humanities"]
+    "keywords": [
+      "Zen",
+      "Classics",
+      "Traditional culture",
+      "Humanities"
+    ]
   },
   "风格_能源基建": {
     "label": "能源基建风格模板",
     "summary": "Deep-blue infrastructure consulting template for energy projects, international engineering, and investment reviews.",
-    "keywords": ["Energy", "Infrastructure", "Engineering", "Investment review"]
+    "keywords": [
+      "Energy",
+      "Infrastructure",
+      "Engineering",
+      "Investment review"
+    ]
   },
   "风格_暗色AI工程混合": {
     "label": "暗色 AI 工程混合风格模板",
     "summary": "Hybrid visual template for AI safety, architecture reviews, and engineering deep dives, using raster atmosphere backgrounds plus editable SVG information layers.",
-    "keywords": ["AI", "Engineering", "Hybrid visual", "Dark tech"]
+    "keywords": [
+      "AI",
+      "Engineering",
+      "Hybrid visual",
+      "Dark tech"
+    ]
   },
   "风格_高端金融混合": {
     "label": "高端金融混合风格模板",
     "summary": "Hybrid visual template for private banking, wealth management, transaction finance, and executive finance reports.",
-    "keywords": ["Finance", "Banking", "Hybrid visual", "Premium"]
+    "keywords": [
+      "Finance",
+      "Banking",
+      "Hybrid visual",
+      "Premium"
+    ]
   },
   "风格_高端咨询混合": {
     "label": "高端咨询混合风格模板",
     "summary": "Hybrid visual template for board reports, strategy consulting, investment analysis, and executive decision decks.",
-    "keywords": ["Consulting", "Strategy", "Hybrid visual", "Executive"]
+    "keywords": [
+      "Consulting",
+      "Strategy",
+      "Hybrid visual",
+      "Executive"
+    ]
   },
   "风格_现代政企红混合": {
     "label": "现代政企红混合风格模板",
     "summary": "Hybrid visual template for government reports, SOE briefings, policy communication, and formal annual summaries.",
-    "keywords": ["Government", "SOE", "Hybrid visual", "Formal report"]
+    "keywords": [
+      "Government",
+      "SOE",
+      "Hybrid visual",
+      "Formal report"
+    ]
   }
 }

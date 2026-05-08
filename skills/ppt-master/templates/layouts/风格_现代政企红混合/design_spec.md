@@ -1,16 +1,16 @@
-# Dark AI Engineering Hybrid - Design Specification
+# 现代政企红混合 - Design Specification
 
-> Hybrid visual template for AI safety, architecture reviews, and engineering deep dives. Raster backgrounds provide native-image atmosphere; all titles, labels, content cards, diagrams, and metrics are editable SVG / DrawingML overlay elements.
+> Hybrid visual template for government reports, SOE briefings, policy communication, and formal annual summaries. Raster backgrounds provide dignified official atmosphere; all titles, labels, content cards, diagrams, and metrics are editable SVG / DrawingML overlay elements.
 
 ## I. Template Overview
 
 | Property | Description |
 | --- | --- |
-| Template ID | `风格_暗色AI工程混合` |
-| Template Name | Dark AI Engineering Hybrid |
+| Template ID | `风格_现代政企红混合` |
+| Template Name | 现代政企红混合 |
 | Category | Special / Hybrid Visual |
-| Use Cases | AI safety review, system architecture, developer conference, technical postmortem |
-| Design Tone | Premium, cinematic, technical, dark, precise |
+| Use Cases | 政府报告、国企汇报、政策沟通、年度总结 |
+| Design Tone | Formal, dignified, modern, warm, authoritative |
 | Theme Mode | Hybrid: raster atmosphere background + editable SVG information layer |
 
 ## II. Canvas Specification
@@ -32,17 +32,17 @@
 
 | Role | Value |
 | --- | --- |
-| Background | `#0B1020` |
-| Panel | `#0F172A` |
-| Panel Strong | `#111827` |
-| Primary | `#58A6FF` |
-| Accent | `#22D3EE` |
-| Warning | `#F59E0B` |
-| Success | `#34D399` |
-| Danger | `#F97373` |
-| Text | `#FFFFFF` |
-| Muted | `#8B9BB4` |
-| Line | `#243044` |
+| Background | `#FFF8EC` |
+| Panel | `#FFFFFF` |
+| Panel Strong | `#FFF3E0` |
+| Primary | `#9B111E` |
+| Accent | `#C8A35D` |
+| Warning | `#C8A35D` |
+| Success | `#2E7D57` |
+| Danger | `#B42318` |
+| Text | `#5B0B10` |
+| Muted | `#7B6B5D` |
+| Line | `#E8DCC8` |
 
 ## V. Typography System
 

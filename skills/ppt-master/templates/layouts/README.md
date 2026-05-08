@@ -1,4 +1,4 @@
-# Page Layout Template Library (43 Templates)
+# Page Layout Template Library (46 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -49,13 +49,16 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `示例_高端咨询南欧江` | Example-derived | 基础设施评估、能源项目、国际工程、风险战略汇报 | #003F6C | 高端咨询、深水蓝调、具有危机评估和战略判断张力 |
 | `示例_高端咨询汽车认证` | Example-derived | 五年规划、认证检测、汽车产业、绿色低碳战略 | #003F6C | 高端咨询、深海蓝与活力绿，适合规划型汇报 |
 | `示例_麦肯锡客户忠诚` | Example-derived | 客户研究、忠诚度分析、经营诊断、商业策略汇报 | #005587 | 经典咨询、MECE、极简数据驱动，强调结论与图表 |
-| `premium_finance` | Style Library | 银行、财富管理、交易银行、金融高管汇报 | #8B1020 | 高端金融、温润留白、红金点缀，适合产品方案与经营汇报 |
-| `dark_ai_engineering` | Style Library | AI 安全、工程架构、系统评审、开发者分享 | #58A6FF | 深色工程界面、系统图、风险矩阵，适合技术深潜 |
-| `dark_ai_engineering_hybrid` | Style Library | AI 安全、工程架构、技术深潜、研发复盘 | #58A6FF | 生图背景质感 + 可编辑信息层，适合观感优先的技术汇报 |
-| `consulting_executive` | Style Library | 董事会汇报、战略咨询、投资分析、市场研究 | #005587 | 高端咨询、强网格、结论先行，强调数据和决策层阅读 |
-| `government_red_modern` | Style Library | 政府报告、国企汇报、政策沟通、年度总结 | #9B111E | 现代政企红、正式稳重、象征性克制 |
-| `zen_classics` | Style Library | 经典研读、哲学课程、传统文化、人文讲座 | #4F5B45 | 宣纸留白、东方水墨、沉静克制，适合慢节奏阐释 |
-| `energy_infrastructure` | Style Library | 能源基建、国际工程、投资评估、风险战略 | #003F6C | 深海蓝咨询风、项目地图、风险矩阵、工程战略感 |
+| `风格_高端金融` | Style Library | 银行、财富管理、交易银行、金融高管汇报 | #8B1020 | 高端金融、温润留白、红金点缀，适合产品方案与经营汇报 |
+| `风格_高端金融混合` | Style Library | 银行、财富管理、交易银行、金融高管汇报 | #B9975B | 生图质感的金融空间 + 可编辑信息层，适合高端方案汇报 |
+| `风格_暗色AI工程` | Style Library | AI 安全、工程架构、系统评审、开发者分享 | #58A6FF | 深色工程界面、系统图、风险矩阵，适合技术深潜 |
+| `风格_暗色AI工程混合` | Style Library | AI 安全、工程架构、技术深潜、研发复盘 | #58A6FF | 生图背景质感 + 可编辑信息层，适合观感优先的技术汇报 |
+| `风格_高端咨询` | Style Library | 董事会汇报、战略咨询、投资分析、市场研究 | #005587 | 高端咨询、强网格、结论先行，强调数据和决策层阅读 |
+| `风格_高端咨询混合` | Style Library | 董事会汇报、战略咨询、投资分析、市场研究 | #005587 | 白底咨询空间 + 可编辑 Exhibit 信息层，适合决策型汇报 |
+| `风格_现代政企红` | Style Library | 政府报告、国企汇报、政策沟通、年度总结 | #9B111E | 现代政企红、正式稳重、象征性克制 |
+| `风格_现代政企红混合` | Style Library | 政府报告、国企汇报、政策沟通、年度总结 | #9B111E | 庄重红金空间 + 可编辑政策卡片层，适合正式汇报 |
+| `风格_禅意经典` | Style Library | 经典研读、哲学课程、传统文化、人文讲座 | #4F5B45 | 宣纸留白、东方水墨、沉静克制，适合慢节奏阐释 |
+| `风格_能源基建` | Style Library | 能源基建、国际工程、投资评估、风险战略 | #003F6C | 深海蓝咨询风、项目地图、风险矩阵、工程战略感 |
 ---
 
 ## Template Categories
@@ -85,9 +88,9 @@ Universal business styles not tied to any specific brand, broadly applicable.
 | Template | Description |
 |----------|-------------|
 | `exhibit` | Exhibit-driven style, conclusion-first layout with Exhibit takeaway bar, gradient top bar, grid decoration |
-| `consulting_executive` | High-end executive consulting style for strategy decks, board reports, and investment analysis |
-| `premium_finance` | Premium banking and finance style for wealth management and transaction banking reports |
-| `energy_infrastructure` | Deep-blue infrastructure consulting style for energy projects and international engineering |
+| `风格_高端咨询` | High-end executive consulting style for strategy decks, board reports, and investment analysis |
+| `风格_高端金融` | Premium banking and finance style for wealth management and transaction banking reports |
+| `风格_能源基建` | Deep-blue infrastructure consulting style for energy projects and international engineering |
 | `科技蓝商务` | Tech business style, rigorous and professional, hexagonal texture |
 | `smart_red` | Smart red-orange business style, modern and vibrant, geometric cutaway design |
 
@@ -110,7 +113,7 @@ Industry-standard designs for **government agencies and general state-owned ente
 | Template | Description |
 |----------|-------------|
 | `government_red` | Red government style, suitable for government work reports, party-building events |
-| `government_red_modern` | Modernized formal red style for government reports, SOE briefings, and policy communication |
+| `风格_现代政企红` | Modernized formal red style for government reports, SOE briefings, and policy communication |
 | `government_blue` | Blue government style, suitable for smart cities, digital governance reports |
 | `ai_ops` | Enterprise digital intelligence style, telecom AI ops architecture, high-density reports (includes `reference_style.svg` style reference) |
 
@@ -121,8 +124,8 @@ Unconventional visual styles for specific creative scenarios.
 | Template | Description |
 |----------|-------------|
 | `pixel_retro` | Pixel retro style, cyberpunk / gaming themes |
-| `dark_ai_engineering` | Dark technical interface style for AI engineering, architecture, and system-review decks |
-| `zen_classics` | Ink-wash and paper-texture style for traditional culture, philosophy, and classical text study |
+| `风格_暗色AI工程` | Dark technical interface style for AI engineering, architecture, and system-review decks |
+| `风格_禅意经典` | Ink-wash and paper-texture style for traditional culture, philosophy, and classical text study |
 
 ### 6. Style Library Templates
 
@@ -130,13 +133,16 @@ Reusable style packages converted from the `style_samples/` visual direction boa
 
 | Template | Description |
 |----------|-------------|
-| `premium_finance` | Premium finance and banking report style with red, pearl white, graphite, and gold accents. |
-| `dark_ai_engineering` | Dark AI engineering style with technical panels, architecture-review rhythm, and cyan/blue accents. |
-| `dark_ai_engineering_hybrid` | Hybrid AI engineering style using raster-generated atmospheric backgrounds with editable SVG text, cards, and charts. |
-| `consulting_executive` | Executive consulting style with deep navy grid discipline and board-report hierarchy. |
-| `government_red_modern` | Modern formal red style for government and SOE reporting. |
-| `zen_classics` | Zen-inspired cultural lecture style with warm paper, ink, moss green, and cinnabar accents. |
-| `energy_infrastructure` | Energy infrastructure consulting style for project maps, risk matrices, and investment review decks. |
+| `风格_高端金融` | Premium finance and banking report style with red, pearl white, graphite, and gold accents. |
+| `风格_高端金融混合` | Hybrid premium finance style using generated banking-space backgrounds with editable financial information layers. |
+| `风格_暗色AI工程` | Dark AI engineering style with technical panels, architecture-review rhythm, and cyan/blue accents. |
+| `风格_暗色AI工程混合` | Hybrid AI engineering style using raster-generated atmospheric backgrounds with editable SVG text, cards, and charts. |
+| `风格_高端咨询` | Executive consulting style with deep navy grid discipline and board-report hierarchy. |
+| `风格_高端咨询混合` | Hybrid executive consulting style using clean white strategy backgrounds with editable exhibit layers. |
+| `风格_现代政企红` | Modern formal red style for government and SOE reporting. |
+| `风格_现代政企红混合` | Hybrid formal red style using generated red-gold official backgrounds with editable policy-report layers. |
+| `风格_禅意经典` | Zen-inspired cultural lecture style with warm paper, ink, moss green, and cinnabar accents. |
+| `风格_能源基建` | Energy infrastructure consulting style for project maps, risk matrices, and investment review decks. |
 
 ### 7. Example-Derived Templates
 

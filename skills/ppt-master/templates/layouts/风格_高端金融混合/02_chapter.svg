@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="assets/cover_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#101114" opacity="0.36"/>
+  <text x="112" y="246" fill="#C8A35D" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="88" font-weight="700">{{CHAPTER_NUM}}</text>
+  <line x1="112" y1="278" x2="576" y2="278" stroke="#C8A35D" stroke-width="3"/>
+  <text x="112" y="358" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="50" font-weight="700">{{CHAPTER_TITLE}}</text>
+  <text x="116" y="416" fill="#C8CED8" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22">{{CHAPTER_DESC}}</text>
+</svg>

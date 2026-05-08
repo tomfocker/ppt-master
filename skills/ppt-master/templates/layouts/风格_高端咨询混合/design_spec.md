@@ -1,16 +1,16 @@
-# Dark AI Engineering Hybrid - Design Specification
+# 高端咨询混合 - Design Specification
 
-> Hybrid visual template for AI safety, architecture reviews, and engineering deep dives. Raster backgrounds provide native-image atmosphere; all titles, labels, content cards, diagrams, and metrics are editable SVG / DrawingML overlay elements.
+> Hybrid visual template for board reports, strategy consulting, investment analysis, and executive decision decks. Raster backgrounds provide editorial atmosphere; all titles, labels, content cards, diagrams, and metrics are editable SVG / DrawingML overlay elements.
 
 ## I. Template Overview
 
 | Property | Description |
 | --- | --- |
-| Template ID | `风格_暗色AI工程混合` |
-| Template Name | Dark AI Engineering Hybrid |
+| Template ID | `风格_高端咨询混合` |
+| Template Name | 高端咨询混合 |
 | Category | Special / Hybrid Visual |
-| Use Cases | AI safety review, system architecture, developer conference, technical postmortem |
-| Design Tone | Premium, cinematic, technical, dark, precise |
+| Use Cases | 董事会汇报、战略咨询、投资分析、市场研究 |
+| Design Tone | Executive, structured, editorial, precise, decision-oriented |
 | Theme Mode | Hybrid: raster atmosphere background + editable SVG information layer |
 
 ## II. Canvas Specification
@@ -32,17 +32,17 @@
 
 | Role | Value |
 | --- | --- |
-| Background | `#0B1020` |
-| Panel | `#0F172A` |
-| Panel Strong | `#111827` |
-| Primary | `#58A6FF` |
-| Accent | `#22D3EE` |
-| Warning | `#F59E0B` |
-| Success | `#34D399` |
-| Danger | `#F97373` |
-| Text | `#FFFFFF` |
-| Muted | `#8B9BB4` |
-| Line | `#243044` |
+| Background | `#FFFFFF` |
+| Panel | `#FFFFFF` |
+| Panel Strong | `#F8FAFC` |
+| Primary | `#005587` |
+| Accent | `#0EA5E9` |
+| Warning | `#C9A227` |
+| Success | `#1F9D74` |
+| Danger | `#B42318` |
+| Text | `#0B1220` |
+| Muted | `#5B667A` |
+| Line | `#D7DEE8` |
 
 ## V. Typography System
 

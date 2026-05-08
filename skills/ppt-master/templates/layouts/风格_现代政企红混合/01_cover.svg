@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="assets/cover_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#FFF8EC" opacity="0.18"/>
+  <rect x="88" y="206" width="7" height="212" fill="#C8A35D"/>
+  <text x="120" y="258" fill="#5B0B10" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="54" font-weight="700">{{TITLE}}</text>
+  <text x="122" y="318" fill="#7B6B5D" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="23">{{SUBTITLE}}</text>
+  <text x="122" y="376" fill="#9B111E" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="700">{{AUTHOR}}</text>
+  <line x1="88" y1="610" x2="620" y2="610" stroke="#E8DCC8"/>
+  <text x="88" y="652" fill="#7B6B5D" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{DATE}}</text>
+</svg>

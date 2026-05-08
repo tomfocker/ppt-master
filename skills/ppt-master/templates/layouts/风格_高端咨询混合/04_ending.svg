@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="assets/cover_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" opacity="0.08"/>
+  <text x="640" y="292" text-anchor="middle" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="700">{{THANK_YOU}}</text>
+  <line x1="420" y1="332" x2="860" y2="332" stroke="#0EA5E9" stroke-width="3"/>
+  <text x="640" y="390" text-anchor="middle" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20">{{CONTACT_INFO}}</text>
+  <text x="640" y="640" text-anchor="middle" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{PAGE_NUM}}</text>
+</svg>

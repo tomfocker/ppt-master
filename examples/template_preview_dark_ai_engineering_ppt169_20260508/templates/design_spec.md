@@ -6,7 +6,7 @@
 
 | Property | Description |
 | --- | --- |
-| Template ID | `dark_ai_engineering` |
+| Template ID | `风格_暗色AI工程` |
 | Template Name | Dark AI Engineering |
 | Category | Special |
 | Use Cases | AI safety review, engineering architecture, system design, developer conference, technical postmortem |

@@ -1,18 +1,18 @@
-# Zen Classics - Design Specification
+# Consulting Executive - Design Specification
 
-> Ink-wash and paper-texture inspired template for classical text study, philosophy, and traditional culture lectures.
+> High-end executive consulting template for board reports, strategy decks, and investment analysis.
 
 ## I. Template Overview
 
 | Property | Description |
 | --- | --- |
-| Template ID | `zen_classics` |
-| Template Name | Zen Classics |
-| Category | Special |
-| Use Cases | Classical text study, philosophy lecture, traditional culture, humanities course, cultural salon |
-| Design Tone | Quiet, restrained, contemplative, scholarly, high-whitespace |
-| Theme Mode | Warm paper theme with ink black, moss green, and cinnabar accents |
-| Reference Sample | `../style_samples/images/zen_classics_sample.png` |
+| Template ID | `风格_高端咨询` |
+| Template Name | Consulting Executive |
+| Category | General |
+| Use Cases | Board report, strategy consulting, investment analysis, executive presentation, market study |
+| Design Tone | Structured, precise, premium, data-driven, conclusion-first |
+| Theme Mode | Light executive theme with deep navy system and restrained accents |
+| Reference Sample | `../style_samples/images/consulting_executive_sample.png` |
 
 ## II. Canvas Specification
 
@@ -27,14 +27,14 @@
 
 | Role | Value | Usage |
 | --- | --- | --- |
-| Background | `#F6F0E6` | Main light canvas or page base |
-| Dark | `#20201D` | Dark page backgrounds and primary text |
-| Primary | `#4F5B45` | Structural bars, title accents |
-| Secondary | `#E8DDCD` | Cards and soft panels |
-| Accent | `#A7472A` | Dividers, highlights, key markers |
-| Muted Text | `#7B7165` | Subtitles, metadata, footer text |
-| Panel | `#FBF8F1` | Content containers |
-| Line | `#D7C7B5` | Rules, borders, dividers |
+| Background | `#FFFFFF` | Main light canvas or page base |
+| Dark | `#061A33` | Dark page backgrounds and primary text |
+| Primary | `#005587` | Structural bars, title accents |
+| Secondary | `#EEF3F8` | Cards and soft panels |
+| Accent | `#D9A441` | Dividers, highlights, key markers |
+| Muted Text | `#6B7280` | Subtitles, metadata, footer text |
+| Panel | `#F8FAFC` | Content containers |
+| Line | `#DDE5EE` | Rules, borders, dividers |
 
 ## IV. Typography System
 

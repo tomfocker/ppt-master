@@ -24,7 +24,7 @@
 | Property | Details |
 |----------|---------|
 | **Canvas Format** | PPT 16:9 (1280x720) |
-| **Template** | `dark_ai_engineering_hybrid` |
+| **Template** | `风格_暗色AI工程混合` |
 | **Design Style** | Raster-generated dark AI background + editable SVG information layer |
 | **Color Scheme** | Near-black #050915 + blue #58A6FF + cyan #22D3EE |
 
@@ -41,11 +41,11 @@
 | Property | Details |
 |----------|---------|
 | **Canvas Format** | PPT 16:9 (1280x720) |
-| **Template** | `dark_ai_engineering` |
+| **Template** | `风格_暗色AI工程` |
 | **Design Style** | Dark AI engineering / system architecture review |
 | **Color Scheme** | Near-black #0B1020 + blue #58A6FF + cyan #22D3EE |
 
-**Key Features**: Demonstrates how the reusable `dark_ai_engineering` layout template behaves with real content: cover, architecture overview, risk matrix, metrics dashboard, and closing page. All slides are generated as editable SVG / DrawingML-compatible elements.
+**Key Features**: Demonstrates how the reusable `风格_暗色AI工程` layout template behaves with real content: cover, architecture overview, risk matrix, metrics dashboard, and closing page. All slides are generated as editable SVG / DrawingML-compatible elements.
 
 [View Project](./template_preview_dark_ai_engineering_ppt169_20260508/) | [Preview Contact Sheet](./template_preview_dark_ai_engineering_ppt169_20260508/previews/overview.png)
 

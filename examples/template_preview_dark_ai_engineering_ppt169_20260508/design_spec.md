@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Template | `dark_ai_engineering` |
+| Template | `风格_暗色AI工程` |
 | Purpose | 样例预览：展示暗色 AI 工程风格在真实内容页中的效果 |
 | Audience | 技术负责人、产品安全团队、工程评审委员会 |
 | Page Count | 5 pages |

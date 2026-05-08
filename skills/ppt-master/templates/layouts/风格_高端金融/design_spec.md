@@ -1,18 +1,18 @@
-# Energy Infrastructure - Design Specification
+# Premium Finance - Design Specification
 
-> Deep-blue infrastructure consulting template for energy projects, international engineering, and investment reviews.
+> Premium banking and finance template for wealth management, transaction banking, and executive finance reports.
 
 ## I. Template Overview
 
 | Property | Description |
 | --- | --- |
-| Template ID | `energy_infrastructure` |
-| Template Name | Energy Infrastructure |
+| Template ID | `风格_高端金融` |
+| Template Name | Premium Finance |
 | Category | General |
-| Use Cases | Energy infrastructure, hydropower review, international engineering, investment risk assessment, project strategy |
-| Design Tone | Serious, strategic, infrastructure-scale, risk-aware, executive |
-| Theme Mode | Deep sea blue theme with teal and amber risk accents |
-| Reference Sample | `../style_samples/images/energy_infrastructure_sample.png` |
+| Use Cases | Banking product pitch, wealth management report, transaction banking solution, finance executive briefing |
+| Design Tone | Premium, restrained, financial, borderless, executive |
+| Theme Mode | Light warm theme with bank red and gold accents |
+| Reference Sample | `../style_samples/images/premium_finance_sample.png` |
 
 ## II. Canvas Specification
 
@@ -27,14 +27,14 @@
 
 | Role | Value | Usage |
 | --- | --- | --- |
-| Background | `#F5F8FA` | Main light canvas or page base |
-| Dark | `#001F45` | Dark page backgrounds and primary text |
-| Primary | `#003F6C` | Structural bars, title accents |
-| Secondary | `#E7F0F6` | Cards and soft panels |
-| Accent | `#00A3A3` | Dividers, highlights, key markers |
-| Muted Text | `#64748B` | Subtitles, metadata, footer text |
+| Background | `#FAF7F3` | Main light canvas or page base |
+| Dark | `#231F20` | Dark page backgrounds and primary text |
+| Primary | `#8B1020` | Structural bars, title accents |
+| Secondary | `#F2E6E4` | Cards and soft panels |
+| Accent | `#C8A45D` | Dividers, highlights, key markers |
+| Muted Text | `#7A6F68` | Subtitles, metadata, footer text |
 | Panel | `#FFFFFF` | Content containers |
-| Line | `#D6E3EA` | Rules, borders, dividers |
+| Line | `#E7DAD5` | Rules, borders, dividers |
 
 ## IV. Typography System
 

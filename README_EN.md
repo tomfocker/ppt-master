@@ -42,7 +42,7 @@ New example-derived templates include:
 
 ### 2. Expanded Layout Library
 
-The layout library now contains 43 templates across brand, government, business, academic, medical, psychology, example-derived, and style-library templates.
+The layout library now contains 46 templates across brand, government, business, academic, medical, psychology, example-derived, and style-library templates.
 
 See:
 
@@ -56,9 +56,9 @@ This fork adds a set of 16:9 raster style reference boards for new template desi
 - [Style Sample README](./skills/ppt-master/templates/style_samples/README.md)
 - [Style sample index](./skills/ppt-master/templates/style_samples/style_samples_index.json)
 
-Seven high-frequency directions have also been converted into directly usable `layouts/` templates: `premium_finance`, `dark_ai_engineering`, `dark_ai_engineering_hybrid`, `consulting_executive`, `government_red_modern`, `zen_classics`, and `energy_infrastructure`.
+Ten high-frequency directions have also been converted into directly usable `layouts/` templates: `风格_高端金融`, `风格_高端金融混合`, `风格_暗色AI工程`, `风格_暗色AI工程混合`, `风格_高端咨询`, `风格_高端咨询混合`, `风格_现代政企红`, `风格_现代政企红混合`, `风格_禅意经典`, and `风格_能源基建`.
 
-`dark_ai_engineering_hybrid` is a hybrid template: raster-generated backgrounds provide stronger native image quality, while titles, cards, metrics, and charts remain editable SVG / DrawingML information layers.
+Hybrid templates use raster-generated backgrounds for stronger native image quality, while titles, cards, metrics, and charts remain editable SVG / DrawingML information layers.
 
 ## Usage
 

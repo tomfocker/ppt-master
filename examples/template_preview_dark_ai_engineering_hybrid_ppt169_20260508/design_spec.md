@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Template | `dark_ai_engineering_hybrid` |
+| Template | `风格_暗色AI工程混合` |
 | Purpose | 样例预览：验证“原生生图背景 + 可编辑 SVG 信息层”的混合模板效果 |
 | Audience | 技术负责人、AI 安全团队、工程评审委员会 |
 | Page Count | 3 pages |

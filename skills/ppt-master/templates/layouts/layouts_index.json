@@ -179,39 +179,54 @@
     "summary": "从客户忠诚度分析案例抽象出的经典麦肯锡式咨询模板。",
     "keywords": ["麦肯锡风", "客户忠诚", "商业策略", "咨询"]
   },
-  "premium_finance": {
-    "label": "Premium Finance Template",
+  "风格_高端金融": {
+    "label": "高端金融风格模板",
     "summary": "Premium banking and finance template for wealth management, transaction banking, and executive finance reports.",
     "keywords": ["Finance", "Banking", "Premium", "Executive report"]
   },
-  "dark_ai_engineering": {
-    "label": "Dark AI Engineering Template",
+  "风格_暗色AI工程": {
+    "label": "暗色 AI 工程风格模板",
     "summary": "Dark technical template for AI safety, architecture reviews, system design, and developer presentations.",
     "keywords": ["AI", "Engineering", "Architecture", "Dark tech"]
   },
-  "consulting_executive": {
-    "label": "Consulting Executive Template",
+  "风格_高端咨询": {
+    "label": "高端咨询风格模板",
     "summary": "High-end executive consulting template for board reports, strategy decks, and investment analysis.",
     "keywords": ["Consulting", "Executive", "Strategy", "Board report"]
   },
-  "government_red_modern": {
-    "label": "Government Red Modern Template",
+  "风格_现代政企红": {
+    "label": "现代政企红风格模板",
     "summary": "Modern formal red template for government reports, SOE briefings, and policy-oriented presentations.",
     "keywords": ["Government", "SOE", "Formal report", "Red"]
   },
-  "zen_classics": {
-    "label": "Zen Classics Template",
+  "风格_禅意经典": {
+    "label": "禅意经典风格模板",
     "summary": "Ink-wash and paper-texture inspired template for classical text study, philosophy, and traditional culture lectures.",
     "keywords": ["Zen", "Classics", "Traditional culture", "Humanities"]
   },
-  "energy_infrastructure": {
-    "label": "Energy Infrastructure Template",
+  "风格_能源基建": {
+    "label": "能源基建风格模板",
     "summary": "Deep-blue infrastructure consulting template for energy projects, international engineering, and investment reviews.",
     "keywords": ["Energy", "Infrastructure", "Engineering", "Investment review"]
   },
-  "dark_ai_engineering_hybrid": {
-    "label": "Dark AI Engineering Hybrid Template",
+  "风格_暗色AI工程混合": {
+    "label": "暗色 AI 工程混合风格模板",
     "summary": "Hybrid visual template for AI safety, architecture reviews, and engineering deep dives, using raster atmosphere backgrounds plus editable SVG information layers.",
     "keywords": ["AI", "Engineering", "Hybrid visual", "Dark tech"]
+  },
+  "风格_高端金融混合": {
+    "label": "高端金融混合风格模板",
+    "summary": "Hybrid visual template for private banking, wealth management, transaction finance, and executive finance reports.",
+    "keywords": ["Finance", "Banking", "Hybrid visual", "Premium"]
+  },
+  "风格_高端咨询混合": {
+    "label": "高端咨询混合风格模板",
+    "summary": "Hybrid visual template for board reports, strategy consulting, investment analysis, and executive decision decks.",
+    "keywords": ["Consulting", "Strategy", "Hybrid visual", "Executive"]
+  },
+  "风格_现代政企红混合": {
+    "label": "现代政企红混合风格模板",
+    "summary": "Hybrid visual template for government reports, SOE briefings, policy communication, and formal annual summaries.",
+    "keywords": ["Government", "SOE", "Hybrid visual", "Formal report"]
   }
 }

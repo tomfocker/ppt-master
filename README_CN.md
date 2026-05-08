@@ -40,7 +40,7 @@ skills/ppt-master/templates/layouts/
 | `示例_高端咨询汽车认证` | 五年规划、认证检测、汽车产业战略 |
 | `示例_麦肯锡客户忠诚` | 客户研究、忠诚度分析、商业策略 |
 
-### 2. 模板库扩展到 43 套
+### 2. 模板库扩展到 46 套
 
 当前模板索引包含品牌风、政企风、通用商务风、学术/医疗/心理等场景模板，以及本 fork 新增的示例衍生模板和风格库模板。
 
@@ -56,9 +56,9 @@ skills/ppt-master/templates/layouts/
 - [风格样片库](./skills/ppt-master/templates/style_samples/README.md)
 - [样片索引](./skills/ppt-master/templates/style_samples/style_samples_index.json)
 
-其中 7 个高频方向已经沉淀为可直接点名使用的 `layouts/` 模板：`premium_finance`、`dark_ai_engineering`、`dark_ai_engineering_hybrid`、`consulting_executive`、`government_red_modern`、`zen_classics`、`energy_infrastructure`。
+其中 10 个高频方向已经沉淀为可直接点名使用的 `layouts/` 模板：`风格_高端金融`、`风格_高端金融混合`、`风格_暗色AI工程`、`风格_暗色AI工程混合`、`风格_高端咨询`、`风格_高端咨询混合`、`风格_现代政企红`、`风格_现代政企红混合`、`风格_禅意经典`、`风格_能源基建`。
 
-`dark_ai_engineering_hybrid` 是一套混合模板：背景使用原生生图素材提供更强视觉质感，标题、卡片、指标、图表等信息层仍保持 SVG / DrawingML 可编辑。
+带“混合”的模板使用原生生图素材提供更强视觉质感，标题、卡片、指标、图表等信息层仍保持 SVG / DrawingML 可编辑。
 
 ## 使用方式
 

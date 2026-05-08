@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="assets/content_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" opacity="0.08"/>
+  <text x="56" y="58" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="700">{{PAGE_TITLE}}</text>
+  <rect x="56" y="84" width="1168" height="58" rx="8" fill="#005587" opacity="0.95"/>
+  <rect x="56" y="84" width="7" height="58" fill="#0EA5E9"/>
+  <text x="78" y="121" fill="#FFFFFF" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">{{KEY_MESSAGE}}</text>
+  <rect x="56" y="168" width="1168" height="430" rx="14" fill="#FFFFFF" opacity="0.90" stroke="#D7DEE8"/>
+  <text x="640" y="392" text-anchor="middle" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18">{{CONTENT_AREA}}</text>
+  <line x1="56" y1="640" x2="1224" y2="640" stroke="#D7DEE8"/>
+  <text x="56" y="678" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10">Source: {{SOURCE}}</text>
+  <text x="1224" y="678" text-anchor="end" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12">{{PAGE_NUM}}</text>
+</svg>

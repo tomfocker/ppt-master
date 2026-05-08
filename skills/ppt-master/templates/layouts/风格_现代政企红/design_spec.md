@@ -1,18 +1,18 @@
-# Dark AI Engineering - Design Specification
+# Government Red Modern - Design Specification
 
-> Dark technical template for AI safety, architecture reviews, system design, and developer presentations.
+> Modern formal red template for government reports, SOE briefings, and policy-oriented presentations.
 
 ## I. Template Overview
 
 | Property | Description |
 | --- | --- |
-| Template ID | `dark_ai_engineering` |
-| Template Name | Dark AI Engineering |
-| Category | Special |
-| Use Cases | AI safety review, engineering architecture, system design, developer conference, technical postmortem |
-| Design Tone | Dark, precise, engineering-led, analytical, security-aware |
-| Theme Mode | Dark interface theme with blue/cyan architecture accents |
-| Reference Sample | `../style_samples/images/dark_ai_engineering_sample.png` |
+| Template ID | `风格_现代政企红` |
+| Template Name | Government Red Modern |
+| Category | Government/Enterprise |
+| Use Cases | Government work report, SOE briefing, policy communication, official annual summary |
+| Design Tone | Formal, authoritative, stable, ceremonial, modernized |
+| Theme Mode | Ivory light theme with deep red structure and muted gold accents |
+| Reference Sample | `../style_samples/images/government_red_sample.png` |
 
 ## II. Canvas Specification
 
@@ -27,14 +27,14 @@
 
 | Role | Value | Usage |
 | --- | --- | --- |
-| Background | `#080D18` | Main light canvas or page base |
-| Dark | `#0B1020` | Dark page backgrounds and primary text |
-| Primary | `#58A6FF` | Structural bars, title accents |
-| Secondary | `#111827` | Cards and soft panels |
-| Accent | `#22D3EE` | Dividers, highlights, key markers |
-| Muted Text | `#8B9BB4` | Subtitles, metadata, footer text |
-| Panel | `#0F172A` | Content containers |
-| Line | `#243044` | Rules, borders, dividers |
+| Background | `#FBF7EF` | Main light canvas or page base |
+| Dark | `#2B1B18` | Dark page backgrounds and primary text |
+| Primary | `#9B111E` | Structural bars, title accents |
+| Secondary | `#F3E4D0` | Cards and soft panels |
+| Accent | `#C8A15A` | Dividers, highlights, key markers |
+| Muted Text | `#76665A` | Subtitles, metadata, footer text |
+| Panel | `#FFFFFF` | Content containers |
+| Line | `#E4D4BD` | Rules, borders, dividers |
 
 ## IV. Typography System
 

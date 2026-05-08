@@ -1,5 +1,5 @@
 {
-  "consulting_executive": {
+  "风格_高端咨询": {
     "file": "images/consulting_executive_sample.png",
     "label": "High-End Consulting Executive Sample",
     "use_cases": ["strategy consulting", "board report", "investment analysis", "executive presentation"],
@@ -11,7 +11,7 @@
     "use_cases": ["government report", "SOE briefing", "formal policy report", "party-building adjacent report"],
     "visual_direction": "Deep red, ivory, muted gold, symmetrical report structure, official document rhythm."
   },
-  "dark_ai_engineering": {
+  "风格_暗色AI工程": {
     "file": "images/dark_ai_engineering_sample.png",
     "label": "Dark AI Engineering Sample",
     "use_cases": ["AI safety", "engineering architecture", "system review", "developer conference"],
@@ -29,7 +29,7 @@
     "use_cases": ["hospital report", "case discussion", "clinical research", "medical lecture"],
     "visual_direction": "Clean medical blue and white canvas with protocol flow, clinical metrics, and case overview modules."
   },
-  "premium_finance": {
+  "风格_高端金融": {
     "file": "images/premium_finance_sample.png",
     "label": "Premium Finance Sample",
     "use_cases": ["banking", "wealth management", "transaction banking", "finance executive report"],
@@ -53,13 +53,13 @@
     "use_cases": ["developer onboarding", "Git training", "gamified technical education", "retro tech lecture"],
     "visual_direction": "Dark pixel grid with neon green, magenta, cyan, and blocky learning interface rhythm."
   },
-  "zen_classics": {
+  "风格_禅意经典": {
     "file": "images/zen_classics_sample.png",
     "label": "Zen Classics Sample",
     "use_cases": ["classical text study", "philosophy lecture", "traditional culture", "humanities course"],
     "visual_direction": "Ink-wash restraint, warm paper texture, moss green and cinnabar accents, large negative space."
   },
-  "energy_infrastructure": {
+  "风格_能源基建": {
     "file": "images/energy_infrastructure_sample.png",
     "label": "Energy Infrastructure Consulting Sample",
     "use_cases": ["infrastructure strategy", "energy project", "international engineering", "investment review"],

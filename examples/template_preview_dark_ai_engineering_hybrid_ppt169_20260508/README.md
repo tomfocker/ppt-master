@@ -1,6 +1,6 @@
 # Dark AI Engineering Hybrid Preview
 
-This sample validates the `dark_ai_engineering_hybrid` template: raster-generated backgrounds provide the visual atmosphere, while titles, captions, cards, metrics, lines, and charts remain editable SVG / DrawingML information layers.
+This sample validates the `风格_暗色AI工程混合` template: raster-generated backgrounds provide the visual atmosphere, while titles, captions, cards, metrics, lines, and charts remain editable SVG / DrawingML information layers.
 
 ![Preview overview](./previews/overview.png)
 

@@ -1,16 +1,16 @@
-# Dark AI Engineering Hybrid - Design Specification
+# 高端金融混合 - Design Specification
 
-> Hybrid visual template for AI safety, architecture reviews, and engineering deep dives. Raster backgrounds provide native-image atmosphere; all titles, labels, content cards, diagrams, and metrics are editable SVG / DrawingML overlay elements.
+> Hybrid visual template for private banking, wealth management, transaction finance, and executive finance reports. Raster backgrounds provide premium atmosphere; all titles, labels, content cards, diagrams, and metrics are editable SVG / DrawingML overlay elements.
 
 ## I. Template Overview
 
 | Property | Description |
 | --- | --- |
-| Template ID | `dark_ai_engineering_hybrid` |
-| Template Name | Dark AI Engineering Hybrid |
+| Template ID | `风格_高端金融混合` |
+| Template Name | 高端金融混合 |
 | Category | Special / Hybrid Visual |
-| Use Cases | AI safety review, system architecture, developer conference, technical postmortem |
-| Design Tone | Premium, cinematic, technical, dark, precise |
+| Use Cases | 银行方案、财富管理、交易银行、金融高管汇报 |
+| Design Tone | Premium, financial, restrained, elegant, authoritative |
 | Theme Mode | Hybrid: raster atmosphere background + editable SVG information layer |
 
 ## II. Canvas Specification
@@ -32,17 +32,17 @@
 
 | Role | Value |
 | --- | --- |
-| Background | `#0B1020` |
-| Panel | `#0F172A` |
-| Panel Strong | `#111827` |
-| Primary | `#58A6FF` |
-| Accent | `#22D3EE` |
-| Warning | `#F59E0B` |
-| Success | `#34D399` |
-| Danger | `#F97373` |
+| Background | `#101114` |
+| Panel | `#181A20` |
+| Panel Strong | `#222025` |
+| Primary | `#B9975B` |
+| Accent | `#C8A35D` |
+| Warning | `#D6A84F` |
+| Success | `#3FBF8F` |
+| Danger | `#B91C1C` |
 | Text | `#FFFFFF` |
-| Muted | `#8B9BB4` |
-| Line | `#243044` |
+| Muted | `#C8CED8` |
+| Line | `#3A312A` |
 
 ## V. Typography System
 

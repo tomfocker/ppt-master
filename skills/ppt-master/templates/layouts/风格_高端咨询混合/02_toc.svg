@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <image href="assets/content_bg.png" x="0" y="0" width="1280" height="720"/>
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" opacity="0.08"/>
+  <text x="72" y="84" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700">目录 / CONTENTS</text>
+  <line x1="72" y1="112" x2="1208" y2="112" stroke="#D7DEE8"/>
+  <rect x="82" y="166" width="340" height="116" rx="12" fill="#FFFFFF" opacity="0.92" stroke="#D7DEE8"/>
+  <rect x="470" y="166" width="340" height="116" rx="12" fill="#FFFFFF" opacity="0.92" stroke="#D7DEE8"/>
+  <rect x="858" y="166" width="340" height="116" rx="12" fill="#FFFFFF" opacity="0.92" stroke="#D7DEE8"/>
+  <rect x="82" y="344" width="340" height="116" rx="12" fill="#FFFFFF" opacity="0.92" stroke="#D7DEE8"/>
+  <rect x="470" y="344" width="340" height="116" rx="12" fill="#FFFFFF" opacity="0.92" stroke="#D7DEE8"/>
+  <rect x="858" y="344" width="340" height="116" rx="12" fill="#FFFFFF" opacity="0.92" stroke="#D7DEE8"/>
+  <text x="114" y="214" fill="#0EA5E9" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">01</text><text x="170" y="214" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">{{TOC_ITEM_1_TITLE}}</text><text x="170" y="248" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{TOC_ITEM_1_DESC}}</text>
+  <text x="502" y="214" fill="#0EA5E9" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">02</text><text x="558" y="214" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">{{TOC_ITEM_2_TITLE}}</text><text x="558" y="248" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{TOC_ITEM_2_DESC}}</text>
+  <text x="890" y="214" fill="#0EA5E9" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">03</text><text x="946" y="214" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">{{TOC_ITEM_3_TITLE}}</text><text x="946" y="248" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{TOC_ITEM_3_DESC}}</text>
+  <text x="114" y="392" fill="#0EA5E9" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">04</text><text x="170" y="392" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">{{TOC_ITEM_4_TITLE}}</text><text x="170" y="426" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{TOC_ITEM_4_DESC}}</text>
+  <text x="502" y="392" fill="#0EA5E9" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">05</text><text x="558" y="392" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">{{TOC_ITEM_5_TITLE}}</text><text x="558" y="426" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{TOC_ITEM_5_DESC}}</text>
+  <text x="890" y="392" fill="#0EA5E9" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">06</text><text x="946" y="392" fill="#0B1220" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">{{TOC_ITEM_6_TITLE}}</text><text x="946" y="426" fill="#5B667A" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">{{TOC_ITEM_6_DESC}}</text>
+</svg>

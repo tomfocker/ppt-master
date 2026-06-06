@@ -1,0 +1,58 @@
+{
+  "中国电信": {
+    "summary": "中国电信相关汇报、政企数字化方案、转型规划、内部汇报。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#C00000",
+    "label": "中国电信"
+  },
+  "中国电建_常规": {
+    "summary": "电力能源、工程项目、技术方案、商务沟通、央国企年度总结。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#00418D",
+    "label": "中国电建_常规"
+  },
+  "中国电建_现代": {
+    "summary": "重大工程汇报、国际市场推介、技术成果展示、高端商务谈判。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#00418D",
+    "label": "中国电建_现代"
+  },
+  "中汽研_商务": {
+    "summary": "产品认证展示、测评汇报、技术推广、高端商务汇报。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#003366",
+    "label": "中汽研_商务"
+  },
+  "中汽研_常规": {
+    "summary": "产品认证展示、测评汇报、技术推广、商务来访材料。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#004098",
+    "label": "中汽研_常规"
+  },
+  "中汽研_现代": {
+    "summary": "前瞻技术展示、战略发布、高端商务汇报。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#001529",
+    "label": "中汽研_现代"
+  },
+  "招商银行": {
+    "summary": "交易银行产品介绍、销售收款方案汇报、客户案例拆解、分行培训材料。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#C8152D",
+    "label": "招商银行"
+  },
+  "重庆大学": {
+    "summary": "学术答辩、科研报告、教学展示、学术交流。",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "primary_color": "#006BB7",
+    "label": "重庆大学"
+  }
+}

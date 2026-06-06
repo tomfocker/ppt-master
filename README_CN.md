@@ -1,78 +1,73 @@
 # PPT Master Fork
 
-本仓库是 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 的 fork，保留原版“把 PDF / DOCX / URL / Markdown 生成原生可编辑 PPTX”的完整工作流，并在此基础上补充更适合中文使用和长期复用的模板资产。
-
-> 原版项目由 Hugo He 创建并维护，采用 MIT License。本 fork 主要用于模板扩展、中文化索引和混合视觉模板实践。
+[![Version](https://img.shields.io/badge/version-v2.9.0-blue.svg)](https://github.com/hugohe3/ppt-master/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 中文 | [English](./README_EN.md)
+
+本仓库是 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 的 fork。原项目是一套 AI 驱动的 PPT 生成工作流：把 PDF、DOCX、网页、Markdown 或现有 PPTX 资料转换成原生可编辑的 PowerPoint 文件。
+
+本 fork 的重点不是另起炉灶，而是在跟随上游能力的基础上，沉淀更适合中文使用和复用的模板资产：中文可读的模板索引、示例衍生模板、风格样片库，以及“生图背景 + 可编辑信息层”的混合模板。
+
+> 原项目由 Hugo He 创建并维护，采用 MIT License。本 fork 保留原项目署名和许可边界，主要用于模板扩展、中文化索引和长期可复用风格库实践。
 
 ---
 
 ## 当前同步状态
 
-本 fork 已同步到上游 `upstream/main` 的 v2.6.0 时代能力，并保留我们自己的中文模板库扩展。
+本 fork 已整合上游 `main` 的 v2.9.0 时代更新，同时保留我们自己的模板库和样片库。
 
-上游新增能力主要包括：
+已经同步进来的上游能力包括：
 
-- PPTX 模板导入与复刻：可从现有 `.pptx` 提取 master、layout、assets 和可复用模板结构。
-- 更强的 PPTX / SVG 往返保真：图片裁剪、主题背景、表格、占位符、嵌套 SVG、图片 transform 等能力增强。
-- 新工作流：`topic-research`、`resume-execute`、`verify-charts`、`visual-edit`、`generate-audio`。
-- 动画、转场、旁白、音频与视频导出相关文档与脚本增强。
-- 示例库、在线预览索引和图标库扩展。
+- 直接 PPTX 套模板路线：通过 [`template-fill-pptx`](./skills/ppt-master/workflows/template-fill-pptx.md) 复用现有 PPTX 页面并回填新内容。
+- 三类模板架构：`brands/` 管身份，`layouts/` 管结构，`decks/` 管整套 PPT 复刻。
+- Live Preview 与直接编辑：浏览器里点选元素、改文字/样式、拖拽移动、方向键微调，再写回 `svg_output/`。
+- 视觉自检工作流：[`visual-review`](./skills/ppt-master/workflows/visual-review.md) 可按 rubric 逐页检查 SVG 观感。
+- LaTeX 公式渲染、图表数据校准、自动动画、旁白音频和视频导出能力增强。
+- 71 个可视化模板、11,600+ 图标资源，以及一批新的官方示例 deck。
 
 ---
 
 ## 相对原版的升级
 
-### 1. 中文优先的可复用模板库
+### 1. 中文优先的复用入口
 
-本 fork 把一批高质量 `examples/` 项目抽象成可复用模板，放入：
+我们把 fork 的入口说明改成中文优先，并把常用模板、样片和使用方式写在根 README 中。以后让 Agent 进入这个仓库时，先读 [`AGENTS.md`](./AGENTS.md) 和 [`skills/ppt-master/SKILL.md`](./skills/ppt-master/SKILL.md)，再执行 PPT 任务。
 
-```text
-skills/ppt-master/templates/layouts/
-```
+### 2. 可复用模板资产库
 
-这些模板不再绑定原始案例内容，而是保留其视觉语言、页面结构和设计节奏，适合直接在新 PPT 任务中点名使用。
+当前模板资产按上游 v2.9 架构拆成三类：
 
-新增的示例衍生模板包括：
+| 类型 | 目录 | 用途 | 数量 |
+|------|------|------|-----:|
+| Brand | [`templates/brands/`](./skills/ppt-master/templates/brands/) | 只锁定品牌身份，如颜色、字体、logo、语气 | 2 |
+| Layout | [`templates/layouts/`](./skills/ppt-master/templates/layouts/) | 只锁定页面结构和 SVG 页面骨架 | 32 |
+| Deck | [`templates/decks/`](./skills/ppt-master/templates/decks/) | 复刻完整 PPT 风格，包含身份和结构 | 8 |
 
-| 模板 | 适合场景 |
-|------|----------|
-| `示例_项目介绍` | 产品介绍、项目路演、工具说明、内部宣讲 |
-| `示例_暗色科技自动模式` | AI 安全、工程架构、研发分享 |
-| `示例_像素风Git入门` | 技术培训、开发者入门课、游戏化知识分享 |
-| `示例_易理风谦卦` | 传统文化研究、国学课程、哲学主题汇报 |
-| `示例_禅意风金刚经` | 佛学讲座、经典研读、文化课程 |
-| `示例_谷歌风年度报告` | 年度总结、团队复盘、项目盘点 |
-| `示例_暗色代码调试` | 开发者培训、工程方法论、排障流程 |
-| `示例_技术对比AI编程工具` | 工具评测、竞品分析、技术选型 |
-| `示例_咨询风依恋心理` | 心理学课程、咨询培训、研究综述 |
-| `示例_咨询风AI代理` | AI 架构、智能体设计、技术战略 |
-| `示例_咨询风甘孜财政` | 财政分析、区域经济、政府汇报 |
-| `示例_咨询风重庆区域` | 区域研究、财政金融、风险研判 |
-| `示例_高端咨询南欧江` | 基础设施评估、能源项目、国际工程 |
-| `示例_高端咨询汽车认证` | 五年规划、认证检测、汽车产业战略 |
-| `示例_麦肯锡客户忠诚` | 客户研究、忠诚度分析、商业策略 |
+常用的 fork 模板包括：
 
-### 2. 模板库扩展到 46 套
+| 模板路径 | 适合场景 |
+|----------|----------|
+| `skills/ppt-master/templates/layouts/风格_暗色AI工程混合/` | AI 工程、安全评审、系统架构、技术复盘 |
+| `skills/ppt-master/templates/layouts/风格_高端金融混合/` | 银行、财富管理、交易银行、金融高管汇报 |
+| `skills/ppt-master/templates/layouts/风格_高端咨询混合/` | 董事会汇报、战略咨询、投资分析、研究报告 |
+| `skills/ppt-master/templates/layouts/风格_现代政企红混合/` | 政府报告、国企汇报、政策沟通、年度总结 |
+| `skills/ppt-master/templates/layouts/示例_麦肯锡客户忠诚/` | 客户研究、忠诚度分析、商业策略 |
+| `skills/ppt-master/templates/decks/招商银行/` | 交易银行产品介绍、销售收款方案、客户案例拆解 |
 
-当前模板索引包含上游品牌风、政企风、通用商务风、学术/医疗/心理等场景模板，以及本 fork 新增的示例衍生模板和风格库模板。
+注意：模板触发必须给出完整目录路径。裸模板名只适合查询和讨论，不会自动进入模板流程。
 
-完整索引：
+### 3. 风格样片库
 
-- [模板说明](./skills/ppt-master/templates/layouts/README.md)
-- [机器可读索引](./skills/ppt-master/templates/layouts/layouts_index.json)
+[`templates/style_samples/`](./skills/ppt-master/templates/style_samples/) 保存了一组 16:9 风格参考图，用来做新模板设计、风格对齐和提示词参考。样片不是最终 PPT 页面，真正生成 deck 时仍应重建为可编辑 SVG / DrawingML 元素。
 
-### 3. 风格样片库与混合模板
+样片库目前覆盖高端咨询、现代政企红、暗色 AI 工程、学术研究、医学高校、高端金融、科技年度报告、心理咨询、像素技术培训、禅意经典、能源基建、汽车认证等方向。
 
-本 fork 增加了一组 16:9 风格参考图，用于新模板设计、风格选择和视觉对齐。样片不是最终 PPT 页面，使用时应重建为可编辑 SVG / DrawingML 元素。
+### 4. 混合模板路线
 
-- [风格样片库](./skills/ppt-master/templates/style_samples/README.md)
-- [样片索引](./skills/ppt-master/templates/style_samples/style_samples_index.json)
+我们保留并扩展了“混合模板”方案：背景用原生生图素材承担高级视觉质感，标题、卡片、指标、图表、流程线和正文保持 SVG / DrawingML 可编辑。
 
-其中 10 个高频方向已经沉淀为可直接点名使用的 `layouts/` 模板：`风格_高端金融`、`风格_高端金融混合`、`风格_暗色AI工程`、`风格_暗色AI工程混合`、`风格_高端咨询`、`风格_高端咨询混合`、`风格_现代政企红`、`风格_现代政企红混合`、`风格_禅意经典`、`风格_能源基建`。
-
-带“混合”的模板使用原生生图素材提供更强视觉质感，标题、卡片、指标、图表等信息层仍保持 SVG / DrawingML 可编辑。
+这条路线比纯 SVG 更接近原生 AI 生成 PPT 的观感，同时比整页图片更方便后期改文字和数据，是目前比较值得继续积累的方向。
 
 ---
 
@@ -86,82 +81,71 @@ skills/ppt-master/templates/layouts/
 pip install -r requirements.txt
 ```
 
-Windows 用户可参考原版文档：
-
-- [Windows 安装指南](./docs/zh/windows-installation.md)
+Windows 用户参考：[`docs/zh/windows-installation.md`](./docs/zh/windows-installation.md)。
 
 ### 2. 放入资料
 
-建议把 PDF、DOCX、Markdown、图片等资料放到 `projects/` 目录下，例如：
+建议把资料放在 `projects/<项目名>/sources/` 下，例如：
 
 ```text
 projects/my-report/sources/report.pdf
 ```
 
-### 3. 在 AI Agent 里发起任务
+也可以使用 DOCX、XLSX、PPTX、Markdown、网页 URL 或直接粘贴主题。
 
-使用本 fork 时，建议让 Agent 先读取 `AGENTS.md` 和 `skills/ppt-master/SKILL.md`，再开始生成。
+### 3. 让 Agent 读取工作流
 
 普通自由设计：
 
 ```text
 请读取 AGENTS.md 和 skills/ppt-master/SKILL.md，
-然后用 projects/my-report/sources/report.pdf 生成一份 16:9 PPT。
+用 projects/my-report/sources/report.pdf 生成一份 16:9 PPT。
 ```
 
-指定本 fork 新增模板：
+指定 fork 模板：
 
 ```text
 请读取 AGENTS.md 和 skills/ppt-master/SKILL.md，
-用「风格_暗色AI工程混合」模板，
+使用模板路径 skills/ppt-master/templates/layouts/风格_暗色AI工程混合/，
 根据 projects/ai-review/sources/report.pdf 生成一份 16:9 PPT。
 ```
 
-指定示例衍生模板：
+使用整套 deck 复刻模板：
 
 ```text
-请使用「示例_麦肯锡客户忠诚」模板生成咨询风 PPT。
+请使用模板路径 skills/ppt-master/templates/decks/招商银行/，
+把 projects/bank-plan/sources/方案.md 做成一份交易银行产品介绍 PPT。
 ```
 
-> 模板是 opt-in 的：只有你明确点名模板时，工作流才会使用模板；否则默认自由设计。
-
-### 4. 生成结果
-
-生成完成后，导出的文件会保存到项目的 `exports/` 目录中，通常包含：
+使用现有 PPTX 套模板：
 
 ```text
-*.pptx
-*_svg.pptx
+请读取 skills/ppt-master/workflows/template-fill-pptx.md，
+用 projects/template/source.pptx 作为模板，
+把 projects/new-content/sources/content.md 填成一份新 PPT。
 ```
 
-- `.pptx`：原生 PowerPoint 形状版本，可直接编辑
-- `_svg.pptx`：视觉参考版本
+### 4. 常用命令
 
----
-
-## 常用命令
-
-### 初始化项目
+初始化项目：
 
 ```bash
 python3 skills/ppt-master/scripts/project_manager.py init my_deck --format ppt169
 ```
 
-### 导入资料
+导入资料：
 
 ```bash
 python3 skills/ppt-master/scripts/project_manager.py import-sources projects/my_deck path/to/source.pdf --move
 ```
 
-### 校验项目
+校验项目：
 
 ```bash
 python3 skills/ppt-master/scripts/project_manager.py validate projects/my_deck
 ```
 
-### 后处理导出
-
-以下命令必须按顺序单独执行，不要合并成一条命令：
+后处理导出，必须一条一条顺序执行：
 
 ```bash
 python3 skills/ppt-master/scripts/total_md_split.py projects/my_deck
@@ -172,43 +156,46 @@ python3 skills/ppt-master/scripts/finalize_svg.py projects/my_deck
 ```
 
 ```bash
-python3 skills/ppt-master/scripts/svg_to_pptx.py projects/my_deck -s final
+python3 skills/ppt-master/scripts/svg_to_pptx.py projects/my_deck
 ```
+
+默认导出原生可编辑 PPTX；需要额外生成 SVG 快照版时加 `--svg-snapshot`。
 
 ---
 
-## 与原版保持同步
+## 目录速查
 
-本 fork 以原版为上游：
+| 路径 | 说明 |
+|------|------|
+| [`AGENTS.md`](./AGENTS.md) | AI Agent 入口规则 |
+| [`skills/ppt-master/SKILL.md`](./skills/ppt-master/SKILL.md) | PPT Master 主工作流 |
+| [`skills/ppt-master/workflows/`](./skills/ppt-master/workflows/) | 主题研究、模板创建、套模板、预览、视觉自检、音频等子工作流 |
+| [`skills/ppt-master/templates/`](./skills/ppt-master/templates/) | 模板、样片、图表、图标资源 |
+| [`examples/`](./examples/) | 示例项目和模板预览样片 |
+| [`projects/`](./projects/) | 本地生成项目工作区 |
+
+---
+
+## 与上游同步
+
+本仓库远端关系：
 
 ```text
 upstream: https://github.com/hugohe3/ppt-master
 origin:   https://github.com/tomfocker/ppt-master
 ```
 
-如需同步上游：
+同步上游：
 
 ```bash
 git fetch upstream
 git merge upstream/main
 ```
 
----
-
-## 重要文档
-
-| 文档 | 说明 |
-|------|------|
-| [AGENTS.md](./AGENTS.md) | 通用 AI Agent 入口说明 |
-| [SKILL.md](./skills/ppt-master/SKILL.md) | PPT Master 完整工作流 |
-| [模板库 README](./skills/ppt-master/templates/layouts/README.md) | 当前模板清单与模板结构 |
-| [模板导入指南](./docs/zh/templates-guide.md) | 上游 v2.6 的 PPTX 模板复刻说明 |
-| [音频旁白指南](./docs/zh/audio-narration.md) | 旁白、音频与视频导出 |
-| [脚本说明](./skills/ppt-master/scripts/README.md) | 转换、项目管理、导出等工具 |
-| [FAQ](./docs/zh/faq.md) | 常见问题 |
+同步后需要重点检查 README、模板索引和示例索引，确保 fork 的中文模板资产仍然可发现。
 
 ---
 
 ## License
 
-本 fork 继承原项目的 MIT License。原项目版权和署名归原作者 Hugo He 及贡献者所有。
+本 fork 继承原项目 MIT License。原项目版权和署名归 Hugo He 及贡献者所有。

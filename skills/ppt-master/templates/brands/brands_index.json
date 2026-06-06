@@ -1,0 +1,12 @@
+{
+  "anthropic": {
+    "summary": "Anthropic 品牌身份，适合 AI/LLM 技术分享、开发者大会、技术培训、产品发布。",
+    "primary_color": "#D97757",
+    "label": "Anthropic 品牌"
+  },
+  "google": {
+    "summary": "Google 品牌身份，适合多产品企业汇报、开发者活动、Google 生态教育培训。",
+    "primary_color": "#4285F4",
+    "label": "Google 品牌"
+  }
+}

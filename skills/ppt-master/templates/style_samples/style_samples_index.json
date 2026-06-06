@@ -1,74 +1,134 @@
 {
   "风格_高端咨询": {
     "file": "images/consulting_executive_sample.png",
-    "label": "High-End Consulting Executive Sample",
-    "use_cases": ["strategy consulting", "board report", "investment analysis", "executive presentation"],
-    "visual_direction": "Deep navy and white executive grid with restrained cyan and gold accents; precise consulting hierarchy."
+    "label": "高端咨询样片",
+    "use_cases": [
+      "战略咨询",
+      "董事会汇报",
+      "投资分析",
+      "高管汇报"
+    ],
+    "visual_direction": "深海军蓝与白底网格，搭配克制青色和金色强调，强调咨询式层级。"
   },
-  "government_red": {
+  "风格_现代政企红": {
     "file": "images/government_red_sample.png",
-    "label": "Government Red Formal Report Sample",
-    "use_cases": ["government report", "SOE briefing", "formal policy report", "party-building adjacent report"],
-    "visual_direction": "Deep red, ivory, muted gold, symmetrical report structure, official document rhythm."
+    "label": "现代政企红样片",
+    "use_cases": [
+      "政府报告",
+      "国企汇报",
+      "政策沟通",
+      "正式汇报"
+    ],
+    "visual_direction": "深红、象牙白和哑金色，结构对称，具有正式公文节奏。"
   },
   "风格_暗色AI工程": {
     "file": "images/dark_ai_engineering_sample.png",
-    "label": "Dark AI Engineering Sample",
-    "use_cases": ["AI safety", "engineering architecture", "system review", "developer conference"],
-    "visual_direction": "Near-black technical interface with slate panels, blue/cyan architecture modules, and amber risk accents."
+    "label": "暗色 AI 工程样片",
+    "use_cases": [
+      "AI 安全",
+      "工程架构",
+      "系统评审",
+      "开发者分享"
+    ],
+    "visual_direction": "近黑技术界面、板岩色面板、蓝青色架构模块和风险强调色。"
   },
-  "academic_research": {
+  "风格_学术研究": {
     "file": "images/academic_research_sample.png",
-    "label": "Academic Research Sample",
-    "use_cases": ["thesis defense", "academic report", "research proposal", "grant proposal"],
-    "visual_direction": "University blue research grid with methodology blocks, finding panels, and scholarly spacing."
+    "label": "学术研究样片",
+    "use_cases": [
+      "学位答辩",
+      "学术汇报",
+      "科研申请",
+      "课题报告"
+    ],
+    "visual_direction": "高校蓝研究网格，方法论模块、发现面板和学术留白。"
   },
-  "medical_university": {
+  "风格_医学高校": {
     "file": "images/medical_university_sample.png",
-    "label": "Medical University Sample",
-    "use_cases": ["hospital report", "case discussion", "clinical research", "medical lecture"],
-    "visual_direction": "Clean medical blue and white canvas with protocol flow, clinical metrics, and case overview modules."
+    "label": "医学高校样片",
+    "use_cases": [
+      "医院汇报",
+      "病例讨论",
+      "临床研究",
+      "医学讲座"
+    ],
+    "visual_direction": "医学蓝与白色临床画布，协议流程、病例概览和指标模块。"
   },
   "风格_高端金融": {
     "file": "images/premium_finance_sample.png",
-    "label": "Premium Finance Sample",
-    "use_cases": ["banking", "wealth management", "transaction banking", "finance executive report"],
-    "visual_direction": "Bank red, pearl white, graphite, and warm gold accents with premium borderless report modules."
+    "label": "高端金融样片",
+    "use_cases": [
+      "银行",
+      "财富管理",
+      "交易银行",
+      "金融高管汇报"
+    ],
+    "visual_direction": "银行红、珍珠白、石墨灰和暖金点缀，强调高端留白。"
   },
-  "tech_annual_report": {
+  "风格_科技年度报告": {
     "file": "images/tech_annual_report_sample.png",
-    "label": "Technology Annual Report Sample",
-    "use_cases": ["annual report", "team review", "product analytics", "OKR summary"],
-    "visual_direction": "Bright white dashboard layout with four-color accents, clean cards, and friendly data storytelling."
+    "label": "科技年度报告样片",
+    "use_cases": [
+      "年度报告",
+      "团队复盘",
+      "产品分析",
+      "OKR 总结"
+    ],
+    "visual_direction": "明亮白底、四色点缀、模块化仪表盘卡片和友好的数据叙事。"
   },
-  "psychology_counseling": {
+  "风格_心理咨询": {
     "file": "images/psychology_counseling_sample.png",
-    "label": "Psychology Counseling Sample",
-    "use_cases": ["psychology course", "counseling training", "attachment theory", "clinical education"],
-    "visual_direction": "Warm blue-green therapeutic palette with soft panels, relationship maps, and reflective cards."
+    "label": "心理咨询样片",
+    "use_cases": [
+      "心理课程",
+      "咨询培训",
+      "依恋理论",
+      "临床教育"
+    ],
+    "visual_direction": "温暖蓝绿色治疗感，软面板、关系图和反思卡片。"
   },
-  "pixel_retro_training": {
+  "风格_像素技术培训": {
     "file": "images/pixel_retro_training_sample.png",
-    "label": "Pixel Retro Developer Training Sample",
-    "use_cases": ["developer onboarding", "Git training", "gamified technical education", "retro tech lecture"],
-    "visual_direction": "Dark pixel grid with neon green, magenta, cyan, and blocky learning interface rhythm."
+    "label": "像素技术培训样片",
+    "use_cases": [
+      "开发者入门",
+      "Git 培训",
+      "游戏化技术教育",
+      "复古技术课"
+    ],
+    "visual_direction": "暗色像素网格、霓虹绿/品红/青色和关卡式学习节奏。"
   },
   "风格_禅意经典": {
     "file": "images/zen_classics_sample.png",
-    "label": "Zen Classics Sample",
-    "use_cases": ["classical text study", "philosophy lecture", "traditional culture", "humanities course"],
-    "visual_direction": "Ink-wash restraint, warm paper texture, moss green and cinnabar accents, large negative space."
+    "label": "禅意经典样片",
+    "use_cases": [
+      "经典研读",
+      "哲学讲座",
+      "传统文化",
+      "人文课程"
+    ],
+    "visual_direction": "水墨克制、暖纸质感、苔绿色与朱砂点缀，大留白。"
   },
   "风格_能源基建": {
     "file": "images/energy_infrastructure_sample.png",
-    "label": "Energy Infrastructure Consulting Sample",
-    "use_cases": ["infrastructure strategy", "energy project", "international engineering", "investment review"],
-    "visual_direction": "Deep sea blue consulting layout with project map, risk matrix, and financial sensitivity modules."
+    "label": "能源基建样片",
+    "use_cases": [
+      "基建战略",
+      "能源项目",
+      "国际工程",
+      "投资评审"
+    ],
+    "visual_direction": "深海蓝咨询版式，项目地图、风险矩阵和财务敏感性模块。"
   },
-  "automotive_certification": {
+  "风格_汽车认证": {
     "file": "images/automotive_certification_sample.png",
-    "label": "Automotive Certification Sample",
-    "use_cases": ["automotive testing", "certification institute", "green mobility strategy", "technical roadmap"],
-    "visual_direction": "Deep blue technical report with cyan and green accents, testing pipeline, matrix, and roadmap modules."
+    "label": "汽车认证样片",
+    "use_cases": [
+      "汽车测试",
+      "认证机构",
+      "绿色出行战略",
+      "技术路线图"
+    ],
+    "visual_direction": "深蓝技术报告，青色和绿色强调，测试管线、认证矩阵和路线图。"
   }
 }

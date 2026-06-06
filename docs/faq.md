@@ -44,7 +44,23 @@ For better contemporary stock photography, set `PEXELS_API_KEY` and/or `PIXABAY_
 
 ## Q: Can I edit the generated presentations?
 
-Yes. The main `.pptx` (native PowerPoint shapes — all text, graphics, and colors directly editable without any conversion) is saved to `exports/` with a timestamp. The SVG snapshot `_svg.pptx` plus a copy of `svg_output/` (the Executor's raw SVG source) are archived to `backup/<timestamp>/`, so you can revisit the visual reference or rebuild the pptx via `finalize_svg → svg_to_pptx` without re-running the LLM. `backup/<timestamp>/` directories can be deleted manually when no longer needed. Requires **Office 2016** or later.
+Yes. The main `.pptx` (native PowerPoint shapes — all text, graphics, and colors directly editable without any conversion) is saved to `exports/` with a timestamp. A copy of `svg_output/` (the Executor's raw SVG source) is always written to `backup/<timestamp>/svg_output/` so you can rebuild via `finalize_svg → svg_to_pptx` without re-running the LLM. Pass `--svg-snapshot` to additionally emit an SVG-image preview pptx alongside the native pptx in `exports/` — handy for cross-platform distribution as a single file; off by default because live preview already serves as the SVG visual reference for day-to-day work. Requires **Office 2016** or later.
+
+## Q: Why is one paragraph split into multiple text boxes? Can I get one text box per paragraph instead?
+
+By default yes — every visual line of body text becomes its own PowerPoint text frame. This preserves the SVG's exact line layout pixel-for-pixel, which matters for covers, charts, tables, and any page with tight typographic alignment.
+
+If you'd rather edit body text as whole paragraphs, re-export with `--merge-paragraphs`:
+
+```bash
+python3 skills/ppt-master/scripts/svg_to_pptx.py <project_path> --merge-paragraphs
+```
+
+Mergeable paragraph blocks (same x, dy clustered around one line-height, optional larger gap for paragraph breaks) collapse into one editable text frame with multiple `<a:p>` and precise line-spacing. Resizing the box reflows text inside it.
+
+**Trade-off**: PowerPoint may wrap the merged paragraphs to a different line count than the SVG source — so the page won't match the original layout exactly. Best for long-form body text (abstracts, multi-paragraph sections, reference lists); keep the default for layout-tight pages. The detection is conservative — mixed-layout `<text>` falls through to the default per-line path automatically.
+
+When you're chatting with the AI, you can also just ask: "I want to edit the abstract as one block" / "make text boxes resizable" — the AI will turn this on for you. Defaults stay off so existing decks aren't affected.
 
 ## Q: What's the difference between the three Executors?
 
@@ -68,7 +84,7 @@ If your workflow specifically requires Excel-driven data editing, manually creat
 
 ## Q: Can I change page transitions and element animations?
 
-Yes. Page transitions (`fade` 0.4s by default) and per-element entrance animations (`mixed` effect with `after-previous` cascade by default) are both controlled by `svg_to_pptx.py` flags — `-t/--transition` for page-level and `-a/--animation` for element-level. Common one-liners:
+Yes. Page transitions (`fade` 0.4s by default) and per-element entrance animations (`auto` effect with `after-previous` cascade by default — effect mapped from each group's SVG id, with image-like ids cycling a visual pool for variation) are both controlled by `svg_to_pptx.py` flags — `-t/--transition` for page-level and `-a/--animation` for element-level. Common one-liners:
 
 ```bash
 python3 skills/ppt-master/scripts/svg_to_pptx.py <project> -t push       # different transition
@@ -77,6 +93,8 @@ python3 skills/ppt-master/scripts/svg_to_pptx.py <project> -a none       # disab
 python3 skills/ppt-master/scripts/svg_to_pptx.py <project> --animation fade        # use a single effect instead of mixed
 python3 skills/ppt-master/scripts/svg_to_pptx.py <project> --animation-trigger on-click   # presenter-paced reveals
 ```
+
+`on-click` is for live presentations. Narrated/video export via `--recorded-narration` rejects it because PPT Master writes page timings, not object-level click timings; use `after-previous` or `with-previous` for narrated decks.
 
 Full effect list, anchor logic (top-level `<g id="...">`), fallback behavior, and limitations: see [Animations & Transitions](../skills/ppt-master/references/animations.md).
 
@@ -87,6 +105,21 @@ Full effect list, anchor logic (top-level `<g id="...">`), fallback behavior, an
 **GPT series** older versions tended to produce more layout issues — text overflowing containers, misaligned elements, coordinate miscalculations. Newer versions (e.g. GPT-5.5) have improved noticeably and are usable in practice; if issues appear, tell the AI which page to fix.
 
 Other models (Gemini, GLM, MiniMax, etc.) vary in quality. In general, models with stronger frontend/visual capabilities produce better results.
+
+## Q: Someone said PPT Master is "just a toy" — is that fair?
+
+No. PPT Master is a **harness**, not a complete agent — `harness + model = agent`, and the output ceiling is set entirely by the model, not the harness. Evaluating PPT Master with a weak or small-context model is like test-driving a sports car in first gear and concluding it's slow.
+
+**The full-power combination:**
+
+- **Claude with a large context window** (ideally ~1M tokens): a large context window lets the Executor see every previously generated page in the same session, maintaining visual consistency across the entire deck without splitting runs. Smaller windows force split-mode execution, which introduces visible style drift between phases.
+- **AI image generation with `gpt-image-2`** (or similar): placeholder-grade stock images are the single biggest reason decks look generic. Replacing them with on-brand AI-generated illustrations changes the perceived quality immediately.
+
+If the results you've seen look mediocre, check your setup before concluding anything about the tool: What model? What context size? Was image generation enabled? PPT Master + Claude Opus at 1M context + `gpt-image-2` images is a genuinely different experience from PPT Master + a small open-source model with no image API configured.
+
+> **No Claude access?** Project sponsor [PackyCode](https://www.packyapi.com/register?aff=ppt-master) provides pay-as-you-go access to Claude and other models — no subscription, no overseas card required. Use promo code **`ppt-master`** for 10% off.
+
+One last thing: this is a free, solo-maintained open-source project. If it fits your needs, use it — I'm glad it helps; if it doesn't, pick another tool. Sincere feedback and suggestions are always welcome, because that's how the project gets a little better over time.
 
 ## Q: Text overflows or elements are misaligned — what can I do?
 
@@ -117,6 +150,14 @@ Split mode is a **compromise** — it pays ~6K tokens (re-reading SKILL.md) to d
 Yes. You can **interrupt the workflow at any time** — after the first few pages are generated, review them and give feedback. The AI can regenerate specific pages based on your comments. You don't need to wait until the end to make corrections.
 
 For post-generation fixes, simply tell the AI: "Page 3 has a layout issue — the title overlaps the chart" and it will fix that specific SVG.
+
+## Q: I already have a finished `.pptx` — can I reuse its design and just fill in new content?
+
+Yes — this is the **template fill** route, separate from the SVG generation pipeline. Give the AI your existing `.pptx` plus your material (or a topic) and ask it to "fill this deck with the new content" or "fill this back into the template". It treats your deck as a native slide library, lets you pick only the pages that fit the new story (reorder freely, and reuse one page for several output slides), and writes the new text — plus native table cells and chart data — straight into the original OOXML.
+
+The output stays 100% native-editable PowerPoint: the original design, layouts, images, and animations are preserved, and only the selected pages are exported. It deliberately does **not** change layouts, add pages, or swap images — a deck's page structure encodes its logic (lead-then-detail, comparison, progression), so pick pages whose structure already fits your content rather than forcing it in. For a fresh structure or a different page count, use create-template (next question) instead. Full steps: [template-fill workflow](../skills/ppt-master/workflows/template-fill-pptx.md).
+
+---
 
 ## Q: How do I create a custom template?
 

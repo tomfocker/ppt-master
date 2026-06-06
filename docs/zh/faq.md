@@ -44,7 +44,23 @@ PPT Master 可以在任何能读取文件和执行命令的 AI 编程代理中�
 
 ## Q: 生成的 PPT 可以编辑吗？
 
-可以。主 `.pptx`（原生 PowerPoint 形状，文字、图形、颜色均可直接编辑，无需转换）以时间戳命名保存至 `exports/`。SVG 快照版 `_svg.pptx` 与 Executor 原始 SVG 源（`svg_output/` 副本）一同归档至 `backup/<timestamp>/`，便于回溯视觉参考或基于该版重跑 `finalize_svg → svg_to_pptx` 重建 pptx，无需再走 LLM。`backup/<timestamp>/` 目录可手动清理。需要 **Office 2016** 或更高版本。
+可以。主 `.pptx`（原生 PowerPoint 形状，文字、图形、颜色均可直接编辑，无需转换）以时间戳命名保存至 `exports/`。Executor 的原始 SVG 源（`svg_output/` 副本）始终镜像到 `backup/<timestamp>/svg_output/`，便于归档或基于该版重跑 `finalize_svg → svg_to_pptx` 重建 pptx，无需再走 LLM。加 `--svg-snapshot` 会额外在 `exports/` 内并排生成 SVG 快照版 pptx，便于跨平台单文件分发；默认关闭——日常开发/诊断场景中 live preview 已经提供了 SVG 视觉参考。需要 **Office 2016** 或更高版本。
+
+## Q: 为什么一段正文被拆成了好几个文本框？能不能一段一个文本框？
+
+默认就是按行拆框——SVG 里的每一视觉行都会变成一个独立的 PowerPoint 文本框。这样做是为了**逐像素保留 SVG 的版式**，对封面、图表、表格、以及任何对版式精度敏感的页面来说是必要的。
+
+如果你希望按整段编辑正文，重新导出时加上 `--merge-paragraphs`：
+
+```bash
+python3 skills/ppt-master/scripts/svg_to_pptx.py <project_path> --merge-paragraphs
+```
+
+可合并的段落块（同 x、dy 围绕同一行距聚集、段间允许更大间距）会合并成一个可编辑的文本框，内部为多个 `<a:p>`，并精确保留行距。**拉伸框时文字会在框内自动重排**。
+
+**代价**：PowerPoint 自动换行后，行数可能与原 SVG 不一致——页面版式会与原 SVG 有偏差。适合正文密集型页面（abstract、多段落章节、参考文献等）；版式敏感的页面继续用默认。判定足够保守——非段落型 `<text>` 会自动落回默认的按行拆框路径。
+
+跟 AI 对话时也可以直接说："我想整段编辑 abstract" / "让文本框能自适应" —— AI 会替你打开这个开关。默认关闭，不影响已有项目。
 
 ## Q: 三种执行师有什么区别？
 
@@ -68,7 +84,7 @@ PPT Master 本身免费开源，唯一的成本来自你自己的 AI 模型用�
 
 ## Q: 页面切换和元素动画可以调吗？
 
-可以。页间转场（默认 `fade` 0.4s）和页内元素入场动画（默认 `mixed` 效果 + `after-previous` 自动级联）都通过 `svg_to_pptx.py` 的参数控制——`-t/--transition` 控制页级，`-a/--animation` 控制元素级。常用一行命令：
+可以。页间转场（默认 `fade` 0.4s）和页内元素入场动画（默认 `auto` 效果 + `after-previous` 自动级联，根据每个 group 的 SVG id 自动映射效果——图片类 id 在视觉池中循环以产生 deck 内变化）都通过 `svg_to_pptx.py` 的参数控制——`-t/--transition` 控制页级，`-a/--animation` 控制元素级。常用一行命令：
 
 ```bash
 python3 skills/ppt-master/scripts/svg_to_pptx.py <project> -t push       # 换转场效果
@@ -77,6 +93,8 @@ python3 skills/ppt-master/scripts/svg_to_pptx.py <project> -a none       # 关�
 python3 skills/ppt-master/scripts/svg_to_pptx.py <project> --animation fade        # 改用单一效果（仍是默认级联）
 python3 skills/ppt-master/scripts/svg_to_pptx.py <project> --animation-trigger on-click   # 改为单击触发，演讲者控制节奏
 ```
+
+`on-click` 适合现场演示。通过 `--recorded-narration` 做旁白/视频导出时会拒绝它，因为 PPT Master 只写页面级计时，不生成对象级点击计时；带旁白的 deck 请使用 `after-previous` 或 `with-previous`。
 
 完整效果列表、`<g id="...">` 锚点机制、降级行为、限制：见 [转场与动画](./animations.md)。
 
@@ -87,6 +105,23 @@ python3 skills/ppt-master/scripts/svg_to_pptx.py <project> --animation-trigger o
 **GPT 系列**早期版本排版问题较多——文字超出容器、元素错位、坐标计算失误。较新的版本（如 GPT-5.5）在这方面已有明显进步，实际效果可以接受；如果遇到问题，可以告知 AI 修正具体页面。
 
 其他模型（Gemini、GLM、MiniMax 等）效果参差不齐。总体来说，前端/视觉能力越强的模型，生成效果越好。
+
+## Q: 有人说 PPT Master "只是个玩具"——这个评价准确吗？
+
+不准确。PPT Master 是一个 **harness**，不是完整的 agent——`harness + model = agent`，输出上限完全由模型决定，而不是由 harness 本身决定。用弱模型或小上下文窗口来评价 PPT Master，就好比挂着一档开跑车然后说它跑不快。
+
+**发挥完整实力的组合：**
+
+- **Claude 大上下文窗口**（推荐 ~100 万 token 级别）：大上下文让 Executor 在同一个会话里看到全部已生成页面，在不拆分运行的前提下保持整份 deck 的视觉一致性。上下文不足时被迫走拆分模式，两段之间会出现明显的风格漂移。
+- **AI 生图，推荐 `gpt-image-2`**（或同等质量）：配图水平是 deck 整体观感的最大变量。用占位级的网络图片和用真正贴合内容的 AI 生成图，视觉效果完全是两个量级。
+
+如果你看到的效果差强人意，先对照以下几点检查你的配置，再下结论：用的什么模型？上下文开了多大？有没有接入图片生成 API？同样的工作流，Claude Opus 配 100 万 token 上下文配 `gpt-image-2` 的结果，和小参数开源模型配零配置的结果，是截然不同的体验。
+
+**harness 决定工作流上限，model 决定质量上限。** 如果 agent 能力不达预期，请先升级模型，再来评价 harness。
+
+> **没有 Claude 渠道？** 本项目赞助商 [PackyCode](https://www.packyapi.com/register?aff=ppt-master) 提供 Claude 及其他主流模型的按量付费接入——无需订阅，无需境外信用卡，支持国内支付，开箱即用。充值时填写优惠码 **`ppt-master`** 享 9 折。
+
+最后再说一句：这是一个免费、个人维护的开源项目。合用就用，能帮到你我很高兴；不合用，换个工具就好。真诚的反馈与建议始终欢迎——这也是项目一点点变好的方式。
 
 ## Q: 文字超出边框 / 元素错位怎么办？
 
@@ -117,6 +152,14 @@ python3 skills/ppt-master/scripts/svg_to_pptx.py <project> --animation-trigger o
 可以。你可以**随时中断工作流**——前几页生成后就可以查看并反馈意见。AI 可以根据你的意见重新生成特定页面，不需要等到全部完成再修改。
 
 生成后的修正也一样简单，直接告诉 AI："第 3 页布局有问题——标题和图表重叠了"，它会修正那个特定的 SVG。
+
+## Q: 我已经有一份做好的 `.pptx`，能不能复用它的设计、只填新内容？
+
+可以——这就是 **套模板（template fill）** 路径，独立于 SVG 生成管线。把你现成的 `.pptx` 连同素材（或一个主题）给 AI，说「套模板 / 把这些填回去」。它会把你的 deck 当作原生页面库，只挑适合新内容的页面（可乱序、可重复），把新文字——以及原生表格单元格、图表数据——直接写回原始 OOXML。
+
+输出仍是 100% 原生可编辑的 PowerPoint：原设计、母版、图片、动画都保留，且只导出选中的页面。它刻意**不**改版式、不加页、不换图——一份 deck 的页面结构本身承载着逻辑（总分、对比、递进），所以应挑选结构本就契合内容的页面，而不是硬塞进去。若需要全新结构或不同页数，请改用 create-template（见下一问）。完整步骤：[套模板工作流](../../skills/ppt-master/workflows/template-fill-pptx.md)。
+
+---
 
 ## Q: 如何制作自定义模板？
 
